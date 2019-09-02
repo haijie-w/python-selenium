@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa85b164-1ce1-4014-a3e9-55652e8aec70" name="默认的" comment="提交本地代码&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/2019_09_01.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/getRootPath.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/logger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/login.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/log/mylog.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/readConfig.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/sendEmail.py" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\common\Encapsulation.py" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\img\1565689854成功.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\img\1565689976成功.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\img\445445成功.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\img\test_loginInH5.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Administrator\PycharmProjects\python-selenium\log\mylog.log" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="oola-loginH5.iws" />
@@ -53,8 +50,8 @@
       <file leaf-file-name="logger.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/log/logger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4296875">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.3515625">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding>
                 <element signature="e#89#103#0" expanded="true" />
               </folding>
@@ -130,9 +127,9 @@
         <option value="$PROJECT_DIR$/config/config.ini" />
         <option value="$PROJECT_DIR$/config/readConfig.py" />
         <option value="$PROJECT_DIR$/logs/logger.py" />
-        <option value="$PROJECT_DIR$/log/logger.py" />
         <option value="$PROJECT_DIR$/common/commonFuction.py" />
         <option value="$PROJECT_DIR$/common/login.py" />
+        <option value="$PROJECT_DIR$/log/logger.py" />
       </list>
     </option>
   </component>
@@ -144,8 +141,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="777" />
-    <option name="y" value="128" />
+    <option name="x" value="373" />
+    <option name="y" value="60" />
     <option name="width" value="1686" />
     <option name="height" value="964" />
   </component>
@@ -543,7 +540,13 @@
       <option name="project" value="LOCAL" />
       <updated>1567434158310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="提交本地代码&#10;">
+      <created>1567434828080</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567434828080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -556,8 +559,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="777" y="128" width="1686" height="964" extended-state="0" />
-    <editor active="false" />
+    <frame x="373" y="60" width="1686" height="964" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3195266" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -567,7 +570,7 @@
       <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289941" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19408284" sideWeight="0.49753997" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18573186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18573186" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3287841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -607,17 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/common/login_h5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#194#464#0" expanded="false" />
-            <element signature="e#512#572#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/commonFuction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1001,13 +993,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log/mylog.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/common/commonFuction.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1026,10 +1011,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/log/2019_09_01.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/log/logger.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4296875">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.3515625">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
             <element signature="e#89#103#0" expanded="true" />
           </folding>
