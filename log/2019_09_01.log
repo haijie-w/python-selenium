@@ -1,0 +1,22 @@
+[2019-09-01 11:27:35,163] - logger.py] - INFO: ---测试开始----
+[2019-09-01 11:27:35,165] - logger.py] - INFO: 操作步骤1,2,3
+[2019-09-01 11:27:35,167] - logger.py] - WARNING: ----测试结束----
+[2019-09-01 15:15:14,390] - logger.py] - INFO: 平安三春晖登录百度首页OK
+[2019-09-01 15:15:14,672] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 15:18:26,446] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 15:18:26,645] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 15:19:03,643] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 15:19:05,849] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 15:20:10,774] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 15:20:12,909] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 15:21:43,133] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 15:21:45,349] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 21:06:20,543] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 21:06:22,734] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 21:10:34,135] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 21:10:36,326] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 21:14:29,086] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 21:14:31,320] - logger.py] - INFO: Click forward on current page.
+[2019-09-01 21:19:18,560] - logger.py] - INFO: 平安三春晖登录 百度首页OK
+[2019-09-01 21:19:21,880] - logger.py] - INFO: 浏览器最大化
+[2019-09-01 21:19:21,984] - logger.py] - INFO: 刷新页面
