@@ -19,7 +19,7 @@ print(driver.title)
 # 广告页面弹窗处理
 suspondWindow = driver.find_element_by_xpath("//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img")
 suspondWindow.click()
-print(f"searchKey: Suspond Page1 had been closed.")
+print("searchKey: Suspond Page1 had been closed.")
 time.sleep(1)
 #点击切换到个人模块
 personal = driver.find_element(By.XPATH,"//*[@id='app']/div[2]/div[1]/div[2]/a[3]")

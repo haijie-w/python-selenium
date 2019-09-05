@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from common.login_h5 import login_go
+from Common.login_h5 import login_go
 from config.config_h5 import *
 from selenium.webdriver.common.by import By
 import time
