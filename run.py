@@ -28,4 +28,8 @@ if __name__ == '__main__':
     result = BeautifulReport(test_suite)
     result.report(filename=reportName, description=description, log_path=reportPath)
     # # 发送邮件
+<<<<<<< HEAD
     # sendEmail.email(reportPath)
+=======
+    # sendEmail.email(reportPath)
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a

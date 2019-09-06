@@ -105,7 +105,11 @@ class WebHandle():
 
     # 构造方法，用来接收selenium的driver对象
     @classmethod
+<<<<<<< HEAD
     def __init__(cls,driver):
+=======
+    def __init__(cls, driver):
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
         cls.driver = driver
 
     #   # 输入地址
@@ -158,6 +162,10 @@ class WebHandle():
         # 加入日志
         cls.logger.info(page + " " + element + 'OK')
         return el
+<<<<<<< HEAD
+=======
+
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
     # 多种定位方式
     @classmethod
     def byId(cls, page, element):
@@ -238,6 +246,10 @@ class UIHandle():
     def __init__(cls, driver):
         cls.driver = driver
         cls.logger = Log()
+<<<<<<< HEAD
+=======
+
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
     # 输入地址
     @classmethod
     def get(cls, url):
@@ -250,7 +262,12 @@ class UIHandle():
         cls.driver.forward()
         cls.Logger.info("Click forward on current page.")
 
+<<<<<<< HEAD
      # 浏览器前进操作
+=======
+        # 浏览器前进操作
+
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
     @classmethod
     def back(cls):
         cls.driver.back()
@@ -262,7 +279,12 @@ class UIHandle():
         cls.driver.maximize_window()
         cls.Logger.info(r"浏览器最大化")
 
+<<<<<<< HEAD
      # 刷新页面
+=======
+        # 刷新页面
+
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
     @classmethod
     def refresh(cls):
         cls.driver.refresh()
@@ -276,23 +298,43 @@ class UIHandle():
     # 截图
     @classmethod
     def getScreenshots(cls, filename):
+<<<<<<< HEAD
         file_path = os.path.join(root_dir, "img")   #设置截图保存路径
         # cls.scrollUpScreen()
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
         img_name = file_path + rq + '.png'   #设置截图名称格式
+=======
+        file_path = os.path.join(root_dir, "img")  # 设置截图保存路径
+        # cls.scrollUpScreen()
+        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  # 获取当前系统时间
+        img_name = file_path + rq + '.png'  # 设置截图名称格式
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
         try:
             cls.driver.get_screenshot_as_file(img_name)
         except NameError as e:
             cls.getScreenshots()
+<<<<<<< HEAD
         # cls.scrollDownScreen()
+=======
+            # cls.scrollDownScreen()
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
 
     @classmethod
     def get_screenshot_as_file(cls, filename):
         cls.driver.get_screenshot_as_file(filename)
 
+<<<<<<< HEAD
 # if __name__ == '__main__':
 #     driver=browser_config['chrome']()
 #     a = UIHandle(driver)
 #     a.get('http://www.baidu.com')
 #     b = WebHandle(driver)
 #     c = Assert(driver)
+=======
+        # if __name__ == '__main__':
+        #     driver=browser_config['chrome']()
+        #     a = UIHandle(driver)
+        #     a.get('http://www.baidu.com')
+        #     b = WebHandle(driver)
+        #     c = Assert(driver)
+>>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
