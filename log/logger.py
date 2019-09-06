@@ -7,31 +7,17 @@ import logging
 import time
 import os
 from getRootPath import root_dir
-<<<<<<< HEAD
 log_path = os.path.join(root_dir, "log")
 
-=======
-
-log_path = os.path.join(root_dir, "log")
-
-
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
 class Log():
     @classmethod
     def __init__(cls):
 
         # 文件的命名
         cls.logName = os.path.join(log_path, '%s.log' % time.strftime('%Y_%m_%d'))
-
-<<<<<<< HEAD
         #初始化log
         cls.logger = logging.getLogger()
-        #设置level
-=======
-        # 初始化log
-        cls.logger = logging.getLogger()
         # 设置level
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
         cls.logger.setLevel(logging.DEBUG)
         # 日志输出格式
         cls.formatter = logging.Formatter('[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
@@ -76,7 +62,6 @@ class Log():
 
         # 关闭打开的文件
         fh.close()
-<<<<<<< HEAD
     @classmethod
     def debug(cls, message):
         cls.__console('debug', message)
@@ -86,21 +71,7 @@ class Log():
     @classmethod
     def warning(cls, message):
         cls.__console('warning', message)
-=======
 
-    @classmethod
-    def debug(cls, message):
-        cls.__console('debug', message)
-
-    @classmethod
-    def info(cls, message):
-        cls.__console('info', message)
-
-    @classmethod
-    def warning(cls, message):
-        cls.__console('warning', message)
-
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
     @classmethod
     def error(cls, message):
         cls.__console('error', message)
@@ -110,8 +81,5 @@ if __name__ == "__main__":
     log = Log()
     log.info("---测试开始----")
     log.info("操作步骤1,2,3")
-<<<<<<< HEAD
     log.warning("----测试结束----")
-=======
-    log.warning("----测试结束----")
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
+

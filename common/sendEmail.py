@@ -6,30 +6,22 @@
 @IDE     : PyCharm
 """
 
-<<<<<<< HEAD
 import os,sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 import smtplib
 import configparser
 from common import readPath
-from email.mime.multipart import MIMEMultipart
-from email.mime.text import MIMEText
-from email.mime.application import MIMEApplication
 from report.newReport import new_report
-=======
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
 
 username = '921519025@qq.com'
 password = "whjzll0702"
 sender = username
 receivers = ','.join(['791098673@qq.com'])
 
-
-<<<<<<< HEAD
 def send_email(file_new):
     """
     定义发送邮件
@@ -75,7 +67,6 @@ def send_email(file_new):
         print("邮件发送成功！")
     except Exception as  e:
         print("失败: " + str(e))
-=======
 def email(report):
     # 设置请求头信息
     msg = MIMEMultipart()
@@ -94,4 +85,3 @@ def email(report):
     client.sendmail(sender, receivers, msg.as_string())
     client.quit()
     print("邮件发送成功，请查看")
->>>>>>> 19bd2ada04e443ddcac660f54ddae6e4f6cb1c3a
