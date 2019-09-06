@@ -15,9 +15,10 @@ class Log():
 
         # 文件的命名
         cls.logName = os.path.join(log_path, '%s.log' % time.strftime('%Y_%m_%d'))
+
         #初始化log
         cls.logger = logging.getLogger()
-        # 设置level
+        #设置level
         cls.logger.setLevel(logging.DEBUG)
         # 日志输出格式
         cls.formatter = logging.Formatter('[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
@@ -71,7 +72,6 @@ class Log():
     @classmethod
     def warning(cls, message):
         cls.__console('warning', message)
-
     @classmethod
     def error(cls, message):
         cls.__console('error', message)
@@ -82,4 +82,3 @@ if __name__ == "__main__":
     log.info("---测试开始----")
     log.info("操作步骤1,2,3")
     log.warning("----测试结束----")
-

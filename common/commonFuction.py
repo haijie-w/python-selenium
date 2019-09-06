@@ -158,7 +158,6 @@ class WebHandle():
         # 加入日志
         cls.logger.info(page + " " + element + 'OK')
         return el
-
     # 多种定位方式
     @classmethod
     def byId(cls, page, element):
@@ -239,7 +238,6 @@ class UIHandle():
     def __init__(cls, driver):
         cls.driver = driver
         cls.logger = Log()
-
     # 输入地址
     @classmethod
     def get(cls, url):
@@ -252,8 +250,7 @@ class UIHandle():
         cls.driver.forward()
         cls.Logger.info("Click forward on current page.")
 
-        # 浏览器前进操作
-
+     # 浏览器前进操作
     @classmethod
     def back(cls):
         cls.driver.back()
@@ -283,10 +280,6 @@ class UIHandle():
         # cls.scrollUpScreen()
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
         img_name = file_path + rq + '.png'   #设置截图名称格式
-        file_path = os.path.join(root_dir, "img")  # 设置截图保存路径
-        # cls.scrollUpScreen()
-        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  # 获取当前系统时间
-        img_name = file_path + rq + '.png'  # 设置截图名称格式
         try:
             cls.driver.get_screenshot_as_file(img_name)
         except NameError as e:

@@ -19,22 +19,10 @@ driver=browser_config['chrome']
 # uihandle = WebHandle(driver1)
 # uihandle.get(local_constant['LOGIN_MATRIX_URL'])
 #打开Matrix首页登录
-from config.config import browser_config, local_config, local_constant
-import time
-
-global driver
-driver = browser_config['chrome']
-
-
-# print(driver)
-# uihandle = WebHandle(driver1)
-# uihandle.get(local_constant['LOGIN_MATRIX_URL'])
-# 打开Matrix首页登录
 class Login():
     def __init__(self):
         self.driver1 = UIHandle(driver)
         self.driver2 = WebHandle(driver)
-
     def login(self):
         # 打开浏览器
         # 传入driver对象

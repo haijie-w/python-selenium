@@ -1,12 +1,10 @@
-# -*- coding:utf-8 -*- 
+# -*- coding:utf-8 -*-
 """
 @Time    : 2019-09-01 14:03
 @Author  : Allen
 @FileName: readConfig.py
 @IDE     : PyCharm
-<<<<<<< HEAD
 """
-
 import configparser
 import os
 from getRootPath import root_dir
