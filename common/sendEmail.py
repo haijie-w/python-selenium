@@ -41,21 +41,21 @@ class SendEmail:
         message.attach(MIMEText('这是邮件的正文,请注意查收', 'plain', 'utf-8'))
 
         # 构造附件1（附件为HTML格式的网页）
-        file1 = new_report(readPath.TEST_REPORT,-1)
+        file1 = new_report(readPath.TEST_REPORT)
         att1 = MIMEText(open(file1,'rb').read(),'base64','utf-8')
         att1["Content-Type"] = 'application/octet-stream'
         att1["Content-Disposition"] = 'attachment; filename = file1'
         message.attach(att1)
 
         # 构造附件2（附件为txt格式的log文件）
-        file2 = new_report(readPath.LOG_DIR,-3)
+        file2 = new_report(readPath.LOG_DIR)
         att2 = MIMEText(open(file2,'rb').read(),'base64','utf-8')
         att2["Content-Type"] = 'application/octet-stream'
         att2["Content-Disposition"] = 'attachment; filename = file2'
         message.attach(att2)
 
         # 构造附件3（附件为png格式的图片）
-        file3 = new_report(readPath.Img_DIR,-1)
+        file3 = new_report(readPath.Img_DIR)
         att3 = MIMEText(open(file3,'rb').read(),'base64','utf-8')
         att3["Content-Type"] = 'application/octet-stream'
         att3["Content-Disposition"] = 'attachment; filename = file3'

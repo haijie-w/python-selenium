@@ -5,6 +5,7 @@
 
 # 封装部分维护在此
 from datetime import *
+import os
 from time import sleep
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,92 +13,84 @@ from selenium.webdriver.support.ui import Select
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import TimeoutException
 from config.config import local_config
-from log.logger import *
+from common.logger import Log
 from common import readPath
 
 
 # 断言判断类
-# class Assert():
-#     logger = Logger()
-#
-#     @classmethod
-#     def __init__(cls, driver):
-#         cls.driver = driver
-#
-#     # 判断xpath是否存在，若存在返回True，否则返回False
-#     @classmethod
-#     def assertXPathExistByXPath(cls, page, element):
-#         try:
-#             WebHandle.byXPath(page, element)
-#             cls.logger.mylogger('Element is exist!')
-#             return True
-#         except Exception as e:
-#             cls.logger.mylogger('Element does not exist!',e)
-#             # raise Exception
-#             return False
-#
-#     # 判断id是否存在，若存在返回True，否则返回False
-#     # 不存在return False,在调用该函数的地方raise Exception，因为要刷新页面逻辑难处理
-#     @classmethod
-#     def assertElementExistByID(cls, page, element):
-#         try:
-#             WebHandle.byId(page, element)
-#             cls.logger.mylogger(element + ' is exist!')
-#             return True
-#         except Exception:
-#             cls.logger.mylogger(element + ' does not exist!', -1)
-#             # raise Exception
-#             return False
-#
-#     # 判断页面上是否存在某个特定的文字，若存在返回True，否则返回False
-#     @classmethod
-#     def assertTextExist(cls, page, element, str):
-#         ele = WebHandle.getElementText(page, element)
-#         if str == ele:
-#             cls.logger.mylogger(str + 'is exist!')
-#             return True
-#         else:
-#             cls.logger.mylogger(str + ' does not exist!', -1)
-#             html = Logger.creatHtml(picpath, pics)
-#             Logger.mylogger(html)
-#             raise Exception
-#
-#     # 字符串信息比较，返回比较结果正确与否
-#     @classmethod
-#     def assertInfoEquals(cls, str1, str2):
-#         if str1 == str2:
-#             cls.logger.mylogger("Info is matching")
-#             return True
-#         else:
-#             cls.logger.mylogger("Info is mismatching", -1)
-#             html = Logger.creatHtml(picpath, pics)
-#             Logger.mylogger(html)
-#             raise Exception
-#
-#     # 字符串信息比较不一致，不一致则返回true
-#     @classmethod
-#     def assertInfoNotEquals(cls, str1, str2):
-#         if str1 == str2:
-#             cls.logger.mylogger(str1 + " is equal to " + str2, -1)
-#             html = Logger.creatHtml(picpath, pics)
-#             Logger.mylogger(html)
-#             raise Exception  # return False
-#         else:
-#             cls.logger.mylogger(str1 + " is not equal to " + str2)
-#             return True
-#
-#     # 判断整个页面上是否存在某个特定的文字，若存在返回True，否则返回False
-#     @classmethod
-#     def assertPageTextExist(cls, path):
-#         try:
-#             ele = cls.driver.find_element_by_xpath(path)
-#             cls.logger.mylogger(path + 'is exist!')
-#             return True
-#         except Exception as e:
-#             cls.logger.mylogger(path + ' does not exist!', -1)
-#             html = Logger.creatHtml(picpath, pics)
-#             Logger.mylogger(html)
-#             raise Exception
+class Assert():
+    logger = Log()
+
+    @classmethod
+    def __init__(cls, driver):
+        cls.driver = driver
+
+    # 判断xpath是否存在，若存在返回True，否则返回False
+    @classmethod
+    def assertXPathExistByXPath(cls, page, element):
+        try:
+            WebHandle.byXPath(page, element)
+            cls.logger.info('Element is exist!')
+            return True
+        except Exception as e:
+            cls.logger.error(e)
+            # raise Exception
+            return False
+
+    # 判断id是否存在，若存在返回True，否则返回False
+    # 不存在return False,在调用该函数的地方raise Exception，因为要刷新页面逻辑难处理
+    @classmethod
+    def assertElementExistByID(cls, page, element):
+        try:
+            WebHandle.byId(page, element)
+            cls.logger.info(element + ' is exist!')
+            return True
+        except Exception as e:
+            cls.logger.error(e)
+            # raise Exception
+            return False
+
+    # 判断页面上是否存在某个特定的文字，若存在返回True，否则返回False
+    @classmethod
+    def assertTextExist(cls, page, element, str):
+        ele = WebHandle.getElementText(page, element)
+        if str == ele:
+            cls.logger.info(str + 'is exist!')
+            return True
+        else:
+            cls.logger.error(str + ' does not exist!')
+            raise Exception
+
+    # 字符串信息比较，返回比较结果正确与否
+    @classmethod
+    def assertInfoEquals(cls, str1, str2):
+        if str1 == str2:
+            cls.logger.info("Info is matching")
+            return True
+        else:
+            cls.logger.error("Info is mismatching")
+            raise Exception
+
+    # 字符串信息比较不一致，不一致则返回true
+    @classmethod
+    def assertInfoNotEquals(cls, str1, str2):
+        if str1 == str2:
+            cls.logger.info(str1 + " is equal to " + str2)
+            raise Exception  # return False
+        else:
+            cls.logger.error(str1 + " is not equal to " + str2)
+            return True
+
+    # 判断整个页面上是否存在某个特定的文字，若存在返回True，否则返回False
+    @classmethod
+    def assertPageTextExist(cls, path):
+        try:
+            ele = cls.driver.find_element_by_xpath(path)
+            cls.logger.info(path + 'is exist!')
+            return True
+        except Exception as e:
+            cls.logger.error(e)
+            raise Exception
 
 # 网页操作类
 class WebHandle():
@@ -108,11 +101,11 @@ class WebHandle():
     def __init__(cls,driver):
         cls.driver = driver
 
-    #   # 输入地址
-    # @classmethod
-    # def get(cls, url):
-    #     # cls.logger.loginfo(url)
-    #     cls.driver.get(url)
+    # 输入地址
+    @classmethod
+    def get(cls, url):
+        cls.logger.info(r'打开页面:%s'%url)
+        cls.driver.get(url)
 
     # send_keys方法
     @classmethod
@@ -127,17 +120,20 @@ class WebHandle():
         el.click()
 
     # 一直等待某个元素消失，默认超时10秒
-    # def elementIsNotVisible(cls, page, element):
-    #     try:
-    #         el = WebDriverWait(UIHandle.driver, 10).until_not(
-    #             EC.presence_of_element_located(local_config[page][element]))
-    #         cls.logger.mylogger(page + element + 'is not display')
-    #         return True
-    #     except TimeoutException:
-    #         cls.logger.mylogger(page + element + 'is displayed', -1)
-    #         return False
+    @classmethod
+    def elementIsNotVisible(cls, page, element):
+        try:
+            e2 = WebDriverWait(cls.driver,10).until()
+            el = WebDriverWait(cls.driver, 10).until_not(
+                EC.presence_of_element_located(local_config[page][element]))
+            cls.logger.info(page + element + 'is not display')
+            return True
+        except TimeoutException:
+            cls.logger.info(page + element + 'is displayed')
+            return False
 
     # elements对象(还未完成。。。)
+    @classmethod
     def elements(cls, page, element):
         # 加入日志
         # cls.logger.loginfo(page)
@@ -150,14 +146,16 @@ class WebHandle():
     # element对象（还可加入try，截图等。。。）
     @classmethod
     def element(cls, page, element):
-        # 加入日志
-        # cls.logger.mylogger(page)
-        # 加入隐性等待
-        # 此处便可以传入config_o1中的dict定位参数
-        el = WebDriverWait(cls.driver, 10).until(EC.presence_of_element_located(local_config[page][element]))
-        # 加入日志
-        cls.logger.info(page + " " + element + 'OK')
-        return el
+        try:
+            # 加入隐性等待
+            # 此处便可以传入config文件中的dict定位参数
+            el = WebDriverWait(cls.driver, 10).until(EC.presence_of_element_located(local_config[page][element]))
+            # 加入日志
+            cls.logger.info(page + element + 'is display')
+            return el
+        except TimeoutException:
+            cls.logger.info(page + element + 'is not display')
+
     # 多种定位方式
     @classmethod
     def byId(cls, page, element):
@@ -200,19 +198,24 @@ class WebHandle():
         return cls.byXPath(page, element).text
 
     # 清除元素的内容
-    # Zoe @2017-08-14
     @classmethod
     def clearText(cls, page, element):
         el = cls.element(page, element)
         el.clear()
 
-    # 处理删除确认弹窗
-    # Allen @2017-09-03 Creat
+    # 警告框处理
     @classmethod
     def alter1(cls):
-        aa = cls.driver.switch_to_alter
-        time.sleep(1)
-        aa.accept()
+        try:
+            return cls.driver.switch_to_alter().accept()
+        except Exception as msg:
+            cls.logger.info(msg)
+
+    # 处理JavaScript脚本方法
+    @classmethod
+    def script(cls,src):
+        return cls.driver.execute_script(src)
+
 
     # 鼠标悬停方法
     # page, element是悬停元素的路径
@@ -275,16 +278,17 @@ class UIHandle():
 
     # 截图
     @classmethod
-    def getScreenshots(cls, filename):
+    def get_screent_img(cls, img_name):
         #设置截图保存路径
         file_path = readPath.Img_DIR
         # cls.scrollUpScreen()
-        rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
-        img_name = file_path + rq + '.png'   #设置截图名称格式
+        # rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
+        img_name = file_path + img_name + '.png'   #设置截图名称格式
         try:
             cls.driver.get_screenshot_as_file(img_name)
+            # cls.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(r"D:\untitled\loginH5\img"), img_name))
         except NameError as e:
-            cls.getScreenshots()
+            cls.logger.info(r'截图失败',e)
         # cls.scrollDownScreen()
 
     @classmethod
