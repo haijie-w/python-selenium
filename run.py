@@ -5,7 +5,7 @@
 import unittest
 import os,sys
 import time
-from Common import sendEmail
+from common.sendEmail import SendEmail
 from BeautifulReport import BeautifulReport
 from test_case.test11_01 import *
 path = os.path.abspath(os.path.join(os.getcwd(), ".."))
@@ -27,5 +27,5 @@ if __name__ == '__main__':
     test_suite = unittest .defaultTestLoader.discover(test_dir, pattern=pattern)
     result = BeautifulReport(test_suite)
     result.report(filename=reportName, description=description, log_path=reportPath)
-    # # 发送邮件
-    # sendEmail.email(reportPath)
+    # 发送邮件
+    # SendEmail.send_email()

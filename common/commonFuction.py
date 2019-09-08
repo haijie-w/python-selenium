@@ -13,7 +13,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import TimeoutException
 from config.config import local_config
 from log.logger import *
-from getRootPath import root_dir
+from common import readPath
 
 
 # 断言判断类
@@ -276,7 +276,8 @@ class UIHandle():
     # 截图
     @classmethod
     def getScreenshots(cls, filename):
-        file_path = os.path.join(root_dir, "img")   #设置截图保存路径
+        #设置截图保存路径
+        file_path = readPath.Img_DIR
         # cls.scrollUpScreen()
         rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
         img_name = file_path + rq + '.png'   #设置截图名称格式

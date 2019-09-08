@@ -6,8 +6,9 @@
 @IDE     : PyCharm
 """ 
 import  os
+from common import readPath
 
-def new_report(testReport):
+def new_report(testReport,num):
     """
     生成最新的测试报告文件
     :param testReport:
@@ -15,5 +16,9 @@ def new_report(testReport):
     """
     lists = os.listdir(testReport)
     lists.sort(key=lambda fn: os.path.getmtime(testReport + "\\" + fn))
-    file_new = os.path.join(testReport,lists[-1])
+    file_new = os.path.join(testReport,lists[num])
+    # print(file_new)
     return file_new
+
+# new_report(readPath.LOG_DIR,-3)
+# print(readPath.LOG_DIR)

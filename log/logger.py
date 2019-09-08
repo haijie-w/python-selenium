@@ -6,8 +6,9 @@
 import logging
 import time
 import os
-from getRootPath import root_dir
-log_path = os.path.join(root_dir, "log")
+from common import readPath
+
+log_path = readPath.LOG_DIR
 
 class Log():
     @classmethod
