@@ -8,6 +8,7 @@
 import  os
 from common import readPath
 
+
 def new_report(testReport):
     """
     生成最新的测试报告文件,包括HTML文件，TXT文件和PNG截图

@@ -92,6 +92,7 @@ class Assert():
             cls.logger.error(e)
             raise Exception
 
+
 # 网页操作类
 class WebHandle():
     logger = Log()
@@ -216,7 +217,6 @@ class WebHandle():
     def script(cls,src):
         return cls.driver.execute_script(src)
 
-
     # 鼠标悬停方法
     # page, element是悬停元素的路径
     @classmethod
@@ -231,6 +231,7 @@ class WebHandle():
         path = local_config[page][element][1]
         e = cls.driver.find_element_by_xpath(path)
         ActionChains(cls.driver).context_click(e).perform()
+
 
 # 用户界面操作类
 class UIHandle():
@@ -253,7 +254,7 @@ class UIHandle():
         cls.driver.forward()
         cls.Logger.info("Click forward on current page.")
 
-     # 浏览器前进操作
+     # 浏览器后退操作
     @classmethod
     def back(cls):
         cls.driver.back()
@@ -294,6 +295,7 @@ class UIHandle():
     @classmethod
     def get_screenshot_as_file(cls, filename):
         cls.driver.get_screenshot_as_file(filename)
+
 
 # if __name__ == '__main__':
 #     driver=browser_config['chrome']()

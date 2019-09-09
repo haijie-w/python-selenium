@@ -14,6 +14,7 @@ from common.newReport import new_report
 from email.mime.text import MIMEText
 from email.header import Header
 
+
 class SendEmail:
     def __init__(self):
         # 读取配置文件中的用户信息
@@ -30,6 +31,7 @@ class SendEmail:
         self.receivers = self.url.getConfig("Email_config","TO")
         # 邮件标题
         self.subject = self.url.getConfig("Email_config","SUBJECT")
+
     def send_email(self):
         # 创建一个带附件的实例
         message = MIMEMultipart()

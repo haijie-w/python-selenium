@@ -12,6 +12,7 @@ log_path = readPath.LOG_DIR
 # 日志存放文件夹，如不存在，则自动创建一个log目录
 if not os.path.exists(readPath.LOG_DIR):os.mkdir(readPath.LOG_DIR)
 
+
 class Log():
     """
     日志记录类
@@ -21,9 +22,9 @@ class Log():
         # 文件的命名
         self.logName = os.path.join(log_path, '%s.log' % time.strftime('%Y_%m_%d'))
 
-        #初始化log
+        # 初始化log
         self.logger = logging.getLogger()
-        #设置level
+        # 设置level
         self.logger.setLevel(logging.DEBUG)
         # 日志输出格式
         self.formatter = logging.Formatter('[%(asctime)s] - %(filename)s] - %(levelname)s: %(message)s')
@@ -65,6 +66,7 @@ class Log():
         self.logger.removeHandler(fh)
         # 关闭打开的文件
         fh.close()
+
     def debug(self, message):
         self.__console('debug', message)
 

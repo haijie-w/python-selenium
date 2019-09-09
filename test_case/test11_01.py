@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-from Common.login_h5 import login_go
+from common.login_h5 import login_go
 from config.config_h5 import *
 from selenium.webdriver.common.by import By
 import time
@@ -10,9 +10,11 @@ import random
 from selenium import webdriver
 from dateutil.parser import parse
 
+
 class login():
 	path = os.path.join(os.path.dirname(__file__), 'test11_01.py')
 	sys.path.append(path)
+
 	# 初始化函数
 	def __init__(self):
 		self.driver1 = login_go()
@@ -24,6 +26,7 @@ class login():
 		self.starttime = parse(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 		print("开始测试时间：", self.starttime)
 		self.driver.get(self.url)
+
 	# 广告页面弹窗处理
 	def adClose(self):
 		try:
@@ -32,6 +35,7 @@ class login():
 			print(r"关闭首页加载广告")
 		except Exception as e:
 			print("failed", e)
+
 	# 点击切换到个人模块
 	def loginModule(self):
 		try:
@@ -41,6 +45,7 @@ class login():
 		except Exception as e:
 			print(r"进入个人模块失败", e)
 		sleep(1)
+
 	# 点击进入到登录/注册页面
 	def loginPage(self):
 		try:
@@ -51,6 +56,7 @@ class login():
 			print(phoneText)
 		except Exception as e:
 			print(r"进入登录/注册页面失败", e)
+
 	# 在登录页面输入手机号码
 	def phoneInput(self):
 		try:
@@ -61,6 +67,7 @@ class login():
 			print(r"输入手机号成功")
 		except Exception as e:
 			print(r"输入手机号失败", e)
+
 	# 点击发送验证码
 	def sendMessageCode(self):
 		try:
@@ -69,6 +76,7 @@ class login():
 		except Exception as e:
 			print(r"发送验证码失败", e)
 		sleep(2)
+
 	# 输入6位数验证码
 	def inputMessageCode(self):
 		try:
@@ -82,6 +90,7 @@ class login():
 		except Exception as e:
 			print(r"验证码输入失败", e)
 		sleep(1)
+
 	# 关闭引导图图层（点击噢啦豆图标）
 	def clickOola(self):
 		self.driver.find_element(By.XPATH,"//*[@id='guide-layer']/div/img").click()

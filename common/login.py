@@ -18,16 +18,19 @@ driver=browser_config['chrome']
 # print(driver)
 # uihandle = WebHandle(driver1)
 # uihandle.get(local_constant['LOGIN_MATRIX_URL'])
-#打开Matrix首页登录
+
+
+# 打开Matrix首页登录
 class Login():
     def __init__(self):
         self.driver1 = UIHandle(driver)
         self.driver2 = WebHandle(driver)
+
     def login(self):
         # 打开浏览器
         # 传入driver对象
         # ast = Assert(driver)
-        #输入url地址
+        # 输入url地址
         self.driver1.get(local_constant['LOGIN_MATRIX_URL'])
         self.driver2.Click('平安三春晖登录','百度首页')
         time.sleep(2)
@@ -37,6 +40,7 @@ class Login():
         time.sleep(2)
         # self.driver1.quit()
         return self.driver1
+
 
 a = Login()
 a.login()
