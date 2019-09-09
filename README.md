@@ -2,7 +2,6 @@
 
 这是一个基于Python+selenium+unittest+HTMLTestRunner实现的web自动化框架
 
-
 ###安装与启动
 
 安装Python3版本，确保加入环境变量，pip命令可用
