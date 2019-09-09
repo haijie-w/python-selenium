@@ -43,4 +43,4 @@ pip install -r requirements.txt
 
 6. test_case 测试用例文件夹
 
-7. run.py 执行自动化测试用例
+7. run.py 执行自动化测试用例的入口
