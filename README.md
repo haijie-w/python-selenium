@@ -3,10 +3,12 @@
 这是一个基于Python+selenium+unittest+HTMLTestRunner实现的web自动化框架
 
 ##安装与启动
-安装Python3版本，确保加入环境变量，pip命令可用
-需要把BeautifulReport文件夹放到python的lib文件site-packages下面
 
-##从Github项目下载源码
+1.安装Python3版本，确保加入环境变量，pip命令可用
+
+2.需要把BeautifulReport文件夹放到python的lib文件site-packages下面
+
+##从Github项目下载源码：
 git clone https://github.com/haijie-w/python-selenium.git
 
 ##进入项目目录后执行以下命令：
