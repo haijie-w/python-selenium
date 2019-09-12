@@ -36,4 +36,4 @@ class ReadConfig:
 
 if __name__ == "__main__":
     url = ReadConfig()
-    print(url.get_http("phone"))
+    print(url.get_http('login_testUrl'))

@@ -17,7 +17,8 @@ local_constant = {
 # 定位信息维护在此处，维护结构由外到内为：页面名称--页面下元素名称--元素的定位方式+参数
 local_config = {
 
-    '平安三春晖登录': {'广告加载页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
+    '平安三春晖登录': {
+        '广告加载页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
         '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]"],
         '登录页面': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[2]"],
         '输入手机号码': ['xpath', "//input[@id='telephone']"],
@@ -33,4 +34,14 @@ local_config = {
         '键盘数字9': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[3]"],
         '键盘数字0': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[2]"],
         '键盘数字删除': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[3]"],
-        '百度首页': ['xpath', "//*[@id='index-kw']"], }, }
+    },
+    '噢啦h5页面': {
+        # '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]"],
+        '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]/div[2]"],
+        '广告页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
+        '手动定位按钮': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[3]/div[3]/div[2]/div/div/img"],
+
+
+
+}
+}

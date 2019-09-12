@@ -214,7 +214,7 @@ class WebHandle():
     # 处理JavaScript脚本方法
     @classmethod
     def script(cls, src):
-        return cls.driver.execute_script(src)
+        return cls.driver.execute_script("arguments[0].click();", src)
 
     # 鼠标悬停方法
     # page, element是悬停元素的路径
