@@ -9,12 +9,13 @@ import sys
 from common.commonFuction import UIHandle
 from common.commonFuction import WebHandle
 # from common.commonFuction import Assert
-from config.config import browser_config,local_config,local_constant
+from config.config import browser_config, local_config, local_constant
 import time
 
-
 global driver
-driver=browser_config['chrome']
+driver = browser_config['chrome']
+
+
 # print(driver)
 # uihandle = WebHandle(driver1)
 # uihandle.get(local_constant['LOGIN_MATRIX_URL'])
@@ -32,7 +33,7 @@ class Login():
         # ast = Assert(driver)
         # 输入url地址
         self.driver1.get(local_constant['LOGIN_MATRIX_URL'])
-        self.driver2.Click('平安三春晖登录','百度首页')
+        self.driver2.Click('平安三春晖登录', '百度首页')
         time.sleep(2)
         # self.driver1.back()
         self.driver1.maxiWindow()

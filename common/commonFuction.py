@@ -99,13 +99,13 @@ class WebHandle():
 
     # 构造方法，用来接收selenium的driver对象
     @classmethod
-    def __init__(cls,driver):
+    def __init__(cls, driver):
         cls.driver = driver
 
     # 输入地址
     @classmethod
     def get(cls, url):
-        cls.logger.info(r'打开页面:%s'%url)
+        cls.logger.info(r'打开页面:%s' % url)
         cls.driver.get(url)
 
     # send_keys方法
@@ -124,9 +124,8 @@ class WebHandle():
     @classmethod
     def elementIsNotVisible(cls, page, element):
         try:
-            e2 = WebDriverWait(cls.driver,10).until()
-            el = WebDriverWait(cls.driver, 10).until_not(
-                EC.presence_of_element_located(local_config[page][element]))
+            e2 = WebDriverWait(cls.driver, 10).until()
+            el = WebDriverWait(cls.driver, 10).until_not(EC.presence_of_element_located(local_config[page][element]))
             cls.logger.info(page + element + 'is not display')
             return True
         except TimeoutException:
@@ -214,7 +213,7 @@ class WebHandle():
 
     # 处理JavaScript脚本方法
     @classmethod
-    def script(cls,src):
+    def script(cls, src):
         return cls.driver.execute_script(src)
 
     # 鼠标悬停方法
@@ -242,6 +241,7 @@ class UIHandle():
     def __init__(cls, driver):
         cls.driver = driver
         cls.logger = Log()
+
     # 输入地址
     @classmethod
     def get(cls, url):
@@ -254,7 +254,7 @@ class UIHandle():
         cls.driver.forward()
         cls.Logger.info("Click forward on current page.")
 
-     # 浏览器后退操作
+    # 浏览器后退操作
     @classmethod
     def back(cls):
         cls.driver.back()
@@ -266,7 +266,17 @@ class UIHandle():
         cls.driver.maximize_window()
         cls.Logger.info(r"浏览器最大化")
 
-     # 刷新页面
+    # 获取当前页面的url
+    @ classmethod
+    def get_current_page_url(cls):
+        return cls.driver.current_url
+
+    # 获取当前页面的title
+    @classmethod
+    def get_page_title(cls):
+        return cls.driver.title
+
+    # 刷新页面
     @classmethod
     def refresh(cls):
         cls.driver.refresh()
@@ -280,22 +290,21 @@ class UIHandle():
     # 截图
     @classmethod
     def get_screent_img(cls, img_name):
-        #设置截图保存路径
+        # 设置截图保存路径
         file_path = readPath.Img_DIR
         # cls.scrollUpScreen()
         # rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
-        img_name = file_path + img_name + '.png'   #设置截图名称格式
+        img_name = file_path + img_name + '.png'  # 设置截图名称格式
         try:
-            cls.driver.get_screenshot_as_file(img_name)
-            # cls.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(r"D:\untitled\loginH5\img"), img_name))
+            cls.driver.get_screenshot_as_file(
+                img_name)
+        # cls.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(r"D:\untitled\loginH5\img"), img_name))
         except NameError as e:
-            cls.logger.info(r'截图失败',e)
-        # cls.scrollDownScreen()
+            cls.logger.info(r'截图失败', e)  # cls.scrollDownScreen()
 
     @classmethod
     def get_screenshot_as_file(cls, filename):
         cls.driver.get_screenshot_as_file(filename)
-
 
 # if __name__ == '__main__':
 #     driver=browser_config['chrome']()

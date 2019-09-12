@@ -10,13 +10,14 @@ from common import readPath
 
 log_path = readPath.LOG_DIR
 # 日志存放文件夹，如不存在，则自动创建一个log目录
-if not os.path.exists(readPath.LOG_DIR):os.mkdir(readPath.LOG_DIR)
+if not os.path.exists(readPath.LOG_DIR): os.mkdir(readPath.LOG_DIR)
 
 
 class Log():
     """
     日志记录类
     """
+
     def __init__(self):
 
         # 文件的命名

@@ -16,14 +16,24 @@ config_path = readPath.CONFIG_DIR
 
 class ReadConfig:
     def __init__(self):
-        self.cf = configparser.ConfigParser()      # 创建configparser对象实例
-        self.cf.read(config_path, encoding='gbk') # 一启动就读取配置文件
+        # 创建configparser对象实例
+        self.cf = configparser.ConfigParser()
+        # 一启动就读取配置文件
+        self.cf.read(config_path, encoding='gbk')
 
-    def getConfig(self,flag,name):
-        value = self.cf.get(flag,name)
+    def get_email(self, name):
+        value = self.cf.get("Email_config", name)
+        return value
+
+    def get_db(self, name):
+        value = self.cf.get("DATABASE", name)
+        return value
+
+    def get_http(self, name):
+        value = self.cf.get("local_constant", name)
         return value
 
 
 if __name__ == "__main__":
     url = ReadConfig()
-    print(url.getConfig("local_constant", "phone"))
+    print(url.get_http("phone"))

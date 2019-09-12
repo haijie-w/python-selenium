@@ -4,8 +4,8 @@
 @Author  : Allen
 @FileName: newReport.py
 @IDE     : PyCharm
-""" 
-import  os
+"""
+import os
 from common import readPath
 
 
@@ -17,7 +17,7 @@ def new_report(testReport):
     """
     lists = os.listdir(testReport)
     lists.sort(key=lambda fn: os.path.getmtime(testReport + "\\" + fn))
-    file_new = os.path.join(testReport,lists[-1])
+    file_new = os.path.join(testReport, lists[-1])
     # print(file_new)
     return file_new
 
