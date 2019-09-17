@@ -56,7 +56,7 @@ class DB():
 
 if __name__ == "__main__":
     x = DB()
-    z1 = "SELECT registration_ip FROM star_user LIMIT 20;"
+    z1 = "SELECT username FROM star_user where phone = '18011723722';"
 
-    y1 = x.select_all(z1)
+    y1 = x.select_one(z1)
     print(y1)

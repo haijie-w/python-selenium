@@ -23,6 +23,7 @@ local_config = {
         '登录页面': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[2]"],
         '输入手机号码': ['xpath', "//input[@id='telephone']"],
         '点击发送验证码': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div[2]"],
+        '引导图图层': ['xpath', "//*[@id='guide-layer']/div/img"],
         '键盘数字1': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[1]"],
         '键盘数字2': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[2]"],
         '键盘数字3': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[3]"],
@@ -40,6 +41,9 @@ local_config = {
         '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]/div[2]"],
         '广告页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
         '手动定位按钮': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[3]/div[3]/div[2]/div/div/img"],
+        '用户昵称': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/p"],
+        '用户噢啦豆': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]"],
+
 
 
 

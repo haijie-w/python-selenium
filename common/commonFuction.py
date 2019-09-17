@@ -120,6 +120,12 @@ class WebHandle():
         el = cls.element(page, element)
         el.click()
 
+    # 定位到元素后点击元素
+    @classmethod
+    def clickElement(cls, page, element):
+        e1 = cls.element(page, element)
+        ActionChains(cls.driver).move_to_element(e1).click(e1).perform()
+
     # 一直等待某个元素消失，默认超时10秒
     @classmethod
     def elementIsNotVisible(cls, page, element):
@@ -151,10 +157,10 @@ class WebHandle():
             # 此处便可以传入config文件中的dict定位参数
             el = WebDriverWait(cls.driver, 10).until(EC.presence_of_element_located(local_config[page][element]))
             # 加入日志
-            cls.logger.info(page + element + 'is display')
+            cls.logger.info(page + element + " " + 'is display')
             return el
         except TimeoutException:
-            cls.logger.info(page + element + 'is not display')
+            cls.logger.info(page + element + " " + 'is not display')
 
     # 多种定位方式
     @classmethod
