@@ -273,7 +273,7 @@ class UIHandle():
         cls.Logger.info(r"浏览器最大化")
 
     # 获取当前页面的url
-    @ classmethod
+    @classmethod
     def get_current_page_url(cls):
         return cls.driver.current_url
 
