@@ -64,11 +64,11 @@ class Login():
         # 查询用户的昵称和豆数是否正确
         self.credit = self.DB.select_one("SELECT (credit + gold_coin)AS '用户剩余豆数' FROM star_user where phone = '%s' "%(self.phone))
         self.creditDb = eval(self.credit)[0]
-        print(type(self.creditDb))
+        # print(type(self.creditDb))
         # 获取登录页面的用户噢啦豆数量
         self.credit1 = self.webhandle.getElementText('噢啦h5页面', '用户噢啦豆')
         self.creditPage = int(self.credit1)
-        print(type(self.creditPage))
+        # print(type(self.creditPage))
         # 判断页面噢啦豆数量是否与数据库中一致
         self.driver3.assertInfoEquals(self.creditDb, self.creditPage)
         # self.driver1.refresh()
@@ -79,9 +79,11 @@ class Login():
     def logInModule(self, driver, page, module):
         time.sleep(2)
         self.webhandle.Click(page, module)
+
         time.sleep(2)
         return driver
 
 
 a = Login()
-a.login()
+driver3 = a.login()
+driver3.logInModule(driver, '噢啦h5页面', '噢啦爱心')

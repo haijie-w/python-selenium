@@ -39,6 +39,10 @@ local_config = {
     '噢啦h5页面': {
         # '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]"],
         '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]/div[2]"],
+        # '噢啦爱心': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[1]/div[2]"],
+        '噢啦爱心': ['xpath', " //div[contains(text(),'噢啦爱心')]"],
+        # '环保回收': ['xpath', "//*[@id='app']/div[2]/div[1]/div[3]/a[2]/div[2]"],
+        '环保回收': ['xpath', " //div[contains(text(),'环保回收')]"],
         '广告页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
         '手动定位按钮': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[3]/div[3]/div[2]/div/div/img"],
         '用户昵称': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/p"],
