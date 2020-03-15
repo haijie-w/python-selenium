@@ -7,8 +7,10 @@ basic_config = {'url': 'https://oola-m-tt.oola.cn/h5/#/recycle?channel=136_1',
 
 # 2. 元素定位地址
 element_config = {"loadAD": "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img",
-    'personal': "//*[@id='app']/div[2]/div[1]/div[2]/a[3]", 'login_page': "//*[@id='app']/div[2]/div[1]/div[1]/div[2]",
-    'inputNumber': "//input[@id='telephone']", 'sendCode': "//*[@id='app']/div[2]/div[1]/div[1]/div/div[2]",
+                  'personal': "//*[@id='app']/div[2]/div[1]/div[6]/div[2]/a[3]/div[2]/div",
+                  'login_page': "//*[@id='app']/div[2]/div[1]/div[2]/div[2]",
+                  'inputNumber': "//input[@id='telephone']",
+                  'sendCode': "//*[@id='app']/div[2]/div[1]/div[1]/div/div[2]",
     'num1': "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[1]",
     'num2': "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[2]",
     'num3': "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[3]",

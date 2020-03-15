@@ -27,14 +27,14 @@ class login():
 		print("开始测试时间：", self.starttime)
 		self.driver.get(self.url)
 
-	# 广告页面弹窗处理
-	def adClose(self):
-		try:
-			loadAD = element_config["loadAD"]
-			self.driver1.loadAD_close(loadAD)
-			print(r"关闭首页加载广告")
-		except Exception as e:
-			print("failed", e)
+	# # 广告页面弹窗处理
+	# def adClose(self):
+	# 	try:
+	# 		loadAD = element_config["loadAD"]
+	# 		self.driver1.loadAD_close(loadAD)
+	# 		print(r"关闭首页加载广告")
+	# 	except Exception as e:
+	# 		print("failed", e)
 
 	# 点击切换到个人模块
 	def loginModule(self):

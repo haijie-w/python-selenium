@@ -132,7 +132,7 @@ class WebHandle():
         try:
             e2 = WebDriverWait(cls.driver, 10).until()
             el = WebDriverWait(cls.driver, 10).until_not(EC.presence_of_element_located(local_config[page][element]))
-            cls.logger.info(page + element + 'is not display')
+            cls.logger.info(page + "-" + element + 'is not display')
             return True
         except TimeoutException:
             cls.logger.info(page + element + 'is displayed')
@@ -157,10 +157,10 @@ class WebHandle():
             # 此处便可以传入config文件中的dict定位参数
             el = WebDriverWait(cls.driver, 10).until(EC.presence_of_element_located(local_config[page][element]))
             # 加入日志
-            cls.logger.info(page + element + " " + 'is display')
+            cls.logger.info(page + "-" + element + " " + 'is display')
             return el
         except TimeoutException:
-            cls.logger.info(page + element + " " + 'is not display')
+            cls.logger.info(page + "-" + element + " " + 'is not display')
 
     # 多种定位方式
     @classmethod

@@ -31,7 +31,7 @@ class loginH5(unittest.TestCase):
 		self.caseName = 'H5页面登录（平安三春晖）'
 		self.__dict__['_testMethodDoc'] = self.caseName
 		# 广告页面弹窗处理
-		self.login1_h5.adClose()
+		# self.login1_h5.adClose()
 		# 点击切换到个人模块
 		self.login1_h5.loginModule()
 		# 点击进入到登录/注册页面
@@ -60,7 +60,7 @@ class loginH5(unittest.TestCase):
 	# 结束函数
 	@classmethod
 	def tearDownClass(cls):
-		cls.driver.quit()
+		# cls.driver.quit()
 		cls.endtime = parse(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()))
 		print("测试结束时间：", cls.endtime)
 		totaltime = (cls.endtime - cls.starttime).total_seconds()
