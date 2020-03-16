@@ -90,10 +90,9 @@ def inputMessageCode(driver):
         webhandle.Click('个人页面', '数字5')
         webhandle.Click('个人页面', '数字6')
         print(r"成功输入验证码")
+        sleep(1)
     except Exception as e:
         print(r"验证码输入失败", e)
-    sleep(1)
-
 
 # 关闭引导图图层（点击噢啦豆图标）
 def clickOola(driver):
@@ -103,9 +102,9 @@ def clickOola(driver):
         print(r"关闭个人页面引导图图层")
         bean = webhandle.getElementText('个人页面', '用户噢啦豆')
         print(r'用户的噢啦豆为' + ":" + bean)
+        sleep(2)
     except Exception as e:
         print(r"关闭个人页面引导图层失败", e)
-    sleep(1)
 
 
 # 点击用户头像进入个人设置页面
@@ -114,14 +113,149 @@ def userSetting(driver):
         webhandle = WebHandle(driver)
         webhandle.Click('个人页面', '用户头像')
         print(r"进入用户设置页面")
-        sleep(0.5)
+        sleep(1)
         userID = webhandle.getElementText('个人页面', '用户ID')
-        print(r'用户的噢啦豆为' + ":" + userID)
+        print(r'用户的ID为' + ":" + userID)
         sleep(0.5)
-        UIHandle.back()
+        # UIHandle.back()
     except Exception as e:
         print(r"进入用户设置页面失败", e)
     sleep(1)
+
+# 点击进入我的地址页面
+def clickAddress(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '我的地址')
+        print(r"进入我的地址页面")
+        sleep(0.5)
+    except Exception as e:
+        print(r"进入我的地址页面失败", e)
+    sleep(1)
+
+# 点击添加地址按钮
+def addAddress(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '添加地址')
+        print(r"进入添加地址页面")
+        sleep(0.5)
+    except Exception as e:
+        print(r"进入添加地址页面失败", e)
+    sleep(1)
+
+# 添加新的地址
+def addNewAddress(driver,name):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Input('个人页面', '联系人',name)
+        print(r"联系人信息已输入")
+        webhandle.Click('个人页面', '地址')
+        sleep(1)
+        webhandle.Click('个人页面', '地址选择框')
+        sleep(1)
+        webhandle.Click('个人页面', '广州')
+        sleep(1)
+        webhandle.Click('个人页面', '搜索城市')
+        sleep(1)
+        webhandle.Input('个人页面', '搜索城市','中信广场')
+        sleep(1)
+        webhandle.Click('个人页面','第一个结果')
+        sleep(0.5)
+        webhandle.Input('个人页面','详细地址','1001房')
+        webhandle.Click('个人页面','设置默认地址')
+        sleep(0.5)
+        webhandle.Click('个人页面','完成添加地址')
+        sleep(1)
+        UIHandle.back()
+        print(r'返回到个人页面')
+        UIHandle.back()
+        print(r'返回到个人中心页面')
+    except Exception as e:
+        print(r"添加地址失败", e)
+    sleep(1)
+
+# 进入回收订单页面
+def recycleList(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '回收订单')
+        print(r"进入回收订单页面")
+        sleep(2)
+        UIHandle.back()
+        sleep(3)
+    except Exception as e:
+        print(r"进入回收订单页面失败", e)
+
+# 进入爱心记录页面
+def loveRecord(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '爱心记录')
+        print(r"进入爱心记录页面")
+        UIHandle.back()
+        sleep(2)
+    except Exception as e:
+        print(r"进入爱心记录失败", e)
+
+# 进入任务中心页面
+def task(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '任务中心')
+        print(r"进入任务中心页面")
+        sleep(0.5)
+        UIHandle.back()
+        sleep(2)
+    except Exception as e:
+        print(r"进入任务中心失败", e)
+
+# 进入噢啦日签页面
+def dailySignature(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '噢啦日签')
+        print(r"进入噢啦日签页面")
+        sleep(1)
+        UIHandle.back()
+        sleep(2)
+    except Exception as e:
+        print(r"进入噢啦日签失败", e)
+
+# 进入消息中心页面
+def message(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '消息中心')
+        print(r"进入消息中心页面")
+        UIHandle.back()
+        sleep(1)
+        sleep(2)
+    except Exception as e:
+        print(r"进入消息中心失败", e)
+
+# 进入联系客服页面
+def customerService(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '联系客服')
+        print(r"进入联系客服页面")
+        sleep(0.5)
+        UIHandle.back()
+        sleep(2)
+    except Exception as e:
+        print(r"进入联系客服失败", e)
+
+# 进入关于噢啦页面
+def aboutOola(driver):
+    try:
+        webhandle = WebHandle(driver)
+        webhandle.Click('个人页面', '关于噢啦')
+        print(r"进入关于噢啦页面")
+        UIHandle.back()
+        sleep(2)
+    except Exception as e:
+        print(r"进入关于噢啦失败", e)
 
 
 if __name__ == "__main__":
@@ -131,4 +265,18 @@ if __name__ == "__main__":
     sendMessageCode(driver)
     inputMessageCode(driver)
     clickOola(driver)
-    userSetting(driver)
+    # userSetting(driver)
+    # clickAddress(driver)
+    # addAddress(driver)
+    # addNewAddress(driver,'whj')
+    recycleList(driver)
+    loveRecord(driver)
+    task(driver)
+    # dailySignature(driver)
+    message(driver)
+    # customerService(driver)
+    aboutOola(driver)
+
+
+
+
