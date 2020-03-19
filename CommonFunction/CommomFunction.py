@@ -27,7 +27,6 @@ driver = browser_config['chrome']
 # 暂时在此处切换测试环境地址
 url = local_constant['H5_uat_URL']
 
-
 # 打开进入微端首页
 # class commomFunction():
 #     def __init__(self):

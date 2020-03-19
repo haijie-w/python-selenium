@@ -161,7 +161,7 @@ def addAddress(driver,name):
         webhandle.Click('个人页面', '添加地址')
         print(r"进入添加地址页面")
         sleep(0.5)
-        webhandle.Input('个人页面', '联系人',name)
+        webhandle.Input('个人页面', '联系人', name)
         print(r"联系人信息已输入")
         webhandle.Click('个人页面', '地址')
         sleep(1)

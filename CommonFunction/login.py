@@ -44,7 +44,7 @@ class Login():
             # print(r"输入手机号成功")
             webhandle.Click('个人页面', '发送验证码')
             # print(r"成功发送验证码")
-            sleep(3)
+            sleep(2)
             webhandle.Click('个人页面', '数字1')
             webhandle.Click('个人页面', '数字2')
             webhandle.Click('个人页面', '数字3')
@@ -65,16 +65,9 @@ class Login():
         except Exception as e:
             print(r"登录失败", e)
 
-# class test():
-#     def test1(self):
-#         # xx = Login(driver)
-#         bean1 = int(bean)+1
-#         print(bean1)
 if __name__ == "__main__":
     a = Login(driver)
     a.login(driver)
-    # b = test()
-    # b.test1()
     # userSetting(driver)
     # clickAddress(driver)
     # addAddress(driver, '晓杰')

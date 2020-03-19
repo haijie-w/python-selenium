@@ -131,6 +131,7 @@ local_config = {
 
     '环保回收': {
         '选择发起回收地址': ['xpath', "//div[@class='position flex-line addr']/img"],
+        '广州': ['xpath', "//div[@class='content is-prepend']/li[3]/div"],
         '衣帽鞋包': ['xpath', "//div[@class='recycle-list']/div[1]/div[1]/img"],
         '手机数码': ['xpath', "//div[@class='recycle-list']/div[1]/div[2]/img"],
         '闲置家电': ['xpath', "//div[@class='recycle-list']/div[1]/div[3]/img"],
