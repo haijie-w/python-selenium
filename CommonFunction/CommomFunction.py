@@ -2,7 +2,7 @@
 """
 @Time    : 2020-03-12 22:50
 @Author  : Allen
-@FileName: CommomFunction.py
+@FileName: CommomFunctio1n.py
 @IDE     : PyCharm
 """
 

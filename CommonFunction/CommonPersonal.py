@@ -2,7 +2,7 @@
 """
 @Time    : 2020-03-12 22:39
 @Author  : Allen
-@FileName: CommonPersonal.py
+@FileName: Common1Personal.py
 @IDE     : PyCharm
 """
 

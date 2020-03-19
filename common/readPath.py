@@ -12,9 +12,9 @@ sys.path.append(BASE_DIR)
 # print(BASE_DIR)
 
 # 配置文件
-CONFIG_DIR = os.path.join(BASE_DIR, "config", "config.ini")
+CONFIG_DIR = os.path.join(BASE_DIR, "config", "conf1ig.ini")
 # 元素配置文件
-Element_Config = os.path.join(BASE_DIR, "config", "config.py")
+Element_Config = os.path.join(BASE_DIR, "config", "con1fig.py")
 # 测试用例目录
 TEST_DIR = os.path.join(BASE_DIR, "test_case")
 # 测试报告目录
