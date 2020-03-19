@@ -25,8 +25,8 @@ class ReadConfig:
         value = self.cf.get("Email_config", name)
         return value
 
-    def get_db(self, name):
-        value = self.cf.get("DATABASE", name)
+    def get_db(self, databaseName,name):
+        value = self.cf.get(databaseName, name)
         return value
 
     def get_http(self, name):
@@ -36,4 +36,9 @@ class ReadConfig:
 
 if __name__ == "__main__":
     url = ReadConfig()
-    print(url.get_http('login_testUrl'))
+    print(url.get_db('DATABASE_Uat', 'host'))
+    print(url.get_db('DATABASE_Uat', 'username'))
+    print(url.get_db('DATABASE_Uat', 'password'))
+    print(url.get_db('DATABASE_Uat', 'port'))
+    print(url.get_db('DATABASE_Uat', 'database'))
+

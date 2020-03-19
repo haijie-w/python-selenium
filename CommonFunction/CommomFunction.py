@@ -24,6 +24,8 @@ from selenium.webdriver.common.keys import Keys
 
 global driver
 driver = browser_config['chrome']
+# 暂时在此处切换测试环境地址
+url = local_constant['H5_uat_URL']
 
 
 # 打开进入微端首页
@@ -45,13 +47,13 @@ driver = browser_config['chrome']
 def logIn():
     uihandle = UIHandle(driver)
     webhandle = WebHandle(driver)
-    uihandle.get(local_constant['H5_Test_URL'])
+    uihandle.get(url)
     # uihandle.maxiWindow()
     sleep(2)
     return driver
 
 
-def logInModule(driver, page, module):
+def changeModule(driver, page, module):
     # 传入driver对象
     uihandle = UIHandle(driver)
     webhandle = WebHandle(driver)

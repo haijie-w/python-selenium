@@ -130,7 +130,7 @@ class WebHandle():
     @classmethod
     def elementIsNotVisible(cls, page, element):
         try:
-            e2 = WebDriverWait(cls.driver, 10).until()
+            # e2 = WebDriverWait(cls.driver, 10).until()
             el = WebDriverWait(cls.driver, 10).until_not(EC.presence_of_element_located(local_config[page][element]))
             cls.logger.info(page + "-" + element + 'is not display')
             return True
@@ -295,15 +295,26 @@ class UIHandle():
 
     # 截图
     @classmethod
-    def get_screent_img(cls, img_name):
+    def get_screent_img(cls, imgName=None):
         # 设置截图保存路径
         file_path = readPath.Img_DIR
         # cls.scrollUpScreen()
+        if imgName !=None:
+            imgName = imgName
+        else:
+            imgName = "页面截图"
+        nowdate = datetime.now().strftime('%Y%m%d')  # 当日日期
+        screenshot_today_dir = os.path.join(file_path, nowdate)  # 当前日期文件夹
+        if not os.path.exists(screenshot_today_dir):
+            os.mkdir(screenshot_today_dir)  # 不存在则创建
+        nowtime = datetime.now().strftime('%H%M%S%f')  # 时间戳
+        filename = nowtime + imgName + ".png"  # 拼接文件名 时间戳+文件名+.png
+        filepath = os.path.join(screenshot_today_dir, filename)
         # rq = time.strftime('%Y%m%d%H%M', time.localtime(time.time()))  #获取当前系统时间
-        img_name = file_path + img_name + '.png'  # 设置截图名称格式
+        # 设置截图名称格式
+        # img_name = file_path + '\\' + imgName + '.png'
         try:
-            cls.driver.get_screenshot_as_file(
-                img_name)
+            cls.driver.get_screenshot_as_file(filepath)
         # cls.driver.get_screenshot_as_file('{}/{}.png'.format(os.path.abspath(r"D:\untitled\loginH5\img"), img_name))
         except NameError as e:
             cls.logger.info(r'截图失败', e)  # cls.scrollDownScreen()
@@ -317,4 +328,3 @@ class UIHandle():
 #     a = UIHandle(driver)
 #     a.get('http://www.baidu.com')
 #     b = WebHandle(driver)
-#     c = Assert(driver)

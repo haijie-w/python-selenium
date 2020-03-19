@@ -1,4 +1,4 @@
-# -*- coding:utf-8 -*- 
+# -*- coding:utf-8 -*-
 # Author:Allen
 from selenium import webdriver
 
@@ -13,12 +13,14 @@ browser_config = {'ie': webdriver.Ie, 'chrome': webdriver.Chrome(chrome_options=
 
 local_constant = {
     # 正式环境
-    'H5_Test_URL': 'https://oola-m-tt.oola.cn/h5/#/new-love-project'
+    'H5_Test_URL': 'https://oola-m-tt.oola.cn/h5/#/new-love-project',
+    # uat环境
+    'H5_uat_URL': 'https://uat.oola.cn/h5/#/new-love-project',
 }
 
 # 1.基本的配置元素
 basic_config = {'url': 'https://oola-m-tt.oola.cn/h5/#/recycle?channel=136_1',
-                'phone': [18011723755, 18011723722, 18011722753, 18028567802, 13424083222], 'code': '326618'}
+                'phone': [18011723750, 18011723722,18562659835, 18011722533, 18022569802, 13421083222], 'code': '326618'}
 
 # 平安三春晖定位元素
 pingan_config = {'平安三春晖登录': {
@@ -59,17 +61,17 @@ local_config = {
         '用户噢啦豆': ['xpath', "//div[@class='bean-num']/span"],
         '输入手机号': ['xpath', "//input[@id='telephone']"],
         '发送验证码': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div[2]"],
-        '数字1': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[1]"],
-        '数字2': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[2]"],
-        '数字3': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[3]"],
-        '数字4': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[1]"],
-        '数字5': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[2]"],
-        '数字6': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[3]"],
-        '数字7': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[1]"],
-        '数字8': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[2]"],
-        '数字9': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[3]"],
-        '数字0': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[2]"],
-        '删除': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[3]"],
+        '数字1': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[1]/div[1]"],
+        '数字2': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[1]/div[2]"],
+        '数字3': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[1]/div[3]"],
+        '数字4': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[2]/div[1]"],
+        '数字5': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[2]/div[2]"],
+        '数字6': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[2]/div[3]"],
+        '数字7': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[3]/div[1]"],
+        '数字8': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[3]/div[2]"],
+        '数字9': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[3]/div[3]"],
+        '数字0': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[4]/div[2]"],
+        '删除': ['xpath', "//div[@class='verify-code bgi-com']/div[1]/div[3]/div[4]/div[3]"],
         '引导图图层': ['xpath', "//*[@id='guide-layer']/div/img"],
         '用户头像': ['xpath', "//div[@class='basic-info']/img"],
         '我的地址': ['xpath', "//ul[@class='info-list']/li[3]"],
@@ -99,17 +101,29 @@ local_config = {
         '噢啦日签': ['xpath', "//div[@class='inner-content']/div[6]/h1"],
         '消息中心': ['xpath', "//div[@class='inner-content']/div[7]/h1"],
         '联系客服': ['xpath', "//div[@class='inner-content']/div[8]/h1"],
+        '机构合作咨询': ['xpath', "//div[@class='inner-content']/div[9]/h1"],
         '关于噢啦': ['xpath', "//div[@class='inner-content']/div[10]/h1"]
 
     },
 
 
     '噢啦爱心': {
-        '热门活动': ['xpath', "//div[@class='item-area']/div[1]/div/img"],
-        '爱心项目': ['xpath', "//div[@class='item-area']/div[2]/div/img"],
-        '爱心商城': ['xpath', "//div[@class='item-area']/div[3]/div/img"],
-        '环保资讯': ['xpath', "//div[@class='item-area']/div[4]/div/img"],
+        '热门活动': ['xpath', "//div[@class='item-area']/div[1]/div[1]/img"],
+        '爱心项目': ['xpath', "//div[@class='item-area']/div[1]/div[2]/img"],
+        '爱心商城': ['xpath', "//div[@class='item-area']/div[1]/div[3]/img"],
+        '环保资讯': ['xpath', "//div[@class='item-area']/div[1]/div[4]/img"],
+        '首页banner(1)': ['xpath', "//div[@class='oola-autoHeightBanner banner-area']/div[1]/div[1]/div[1]/div[1]/img"],
+        '第一个热门活动': ['xpath', "//div[@class='list']/div[1]/img"],
+        '第二个热门活动': ['xpath', "//div[@class='list']/div[2]/img"],
         '更多热门公益项目': ['xpath', "//div[@class='hot-welfare-area']/div[1]/div[2]/img"],
+        # '第一个爱心项目': ['xpath', "//div[@class='page-loadmore-wrapper']/ul/li[1]/img"],
+        '第一个爱心项目': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/ul/li[1]/img"],
+        '以废代捐': ['xpath', "//div[@class='project-detail']/div[7]/div[1]/span"],
+        '支持项目': ['xpath', "//div[@class='project-detail']/div[7]/div[2]"],
+        '项目详情页引导图': ['xpath', "//div[@class='guide-layer']/div[2]/img"],
+        '当前噢啦豆数量': ['xpath', "//div[@class='popup']/div[1]/p/span[1]"],
+        '支持噢啦豆': ['xpath', "//div[@class='popup']/div[1]/div/label/input"],
+        '支持项目1': ['xpath', "//div[@class='immediate-recovery immediate-recovery-prohibit']/span"],
 
 
 

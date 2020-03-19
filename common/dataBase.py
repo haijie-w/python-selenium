@@ -8,12 +8,16 @@ import pymysql
 import config.readConfig as conf
 from common import logger
 import json
-
-host = conf.ReadConfig().get_db('host')
-user = conf.ReadConfig().get_db('username')
-password = conf.ReadConfig().get_db('password')
-port = conf.ReadConfig().get_db('port')
-db = conf.ReadConfig().get_db('database')
+# 在此处切换测试库连接地址
+# 测试环境数据库
+# databaseName = 'DATABASE_Test'
+# UAT环境数据库
+databaseName = 'DATABASE_Uat'
+host = conf.ReadConfig().get_db(databaseName, 'host')
+user = conf.ReadConfig().get_db(databaseName, 'username')
+password = conf.ReadConfig().get_db(databaseName, 'password')
+port = conf.ReadConfig().get_db(databaseName, 'port')
+db = conf.ReadConfig().get_db(databaseName, 'database')
 log = logger.Log()
 
 
@@ -31,6 +35,14 @@ class DB():
         cusor.execute(sql)
         result = cusor.fetchone()
         return json.dumps(result)
+
+    # 查询第一个结果数据，类型为int
+    def select_oneInt(self, sql):
+        cusor = self.conn.cursor()
+        cusor.execute(sql)
+        result = cusor.fetchone()
+        resultInt = result[0]
+        return resultInt
 
     # 查询所有数据
     def select_all(self, sql):
@@ -56,7 +68,13 @@ class DB():
 
 if __name__ == "__main__":
     x = DB()
-    z1 = "SELECT username FROM star_user where phone = '18011723722';"
-
-    y1 = x.select_one(z1)
+    # z1 = "update star_user SET credit=credit+10 WHERE id = 1042059"
+    userId = "1042059"
+    z = "update star_user SET credit=credit+10 WHERE id = " + userId
+    z1 = "select credit from star_user WHERE id = " + userId
+    y = x.delete(z)
+    y1 = x.select_oneInt(z1)
     print(y1)
+    # print(type(y1))
+    # xx = y1[1]
+    # print(xx)

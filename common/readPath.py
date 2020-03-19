@@ -9,7 +9,7 @@ import os, sys
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 sys.path.append(BASE_DIR)
-print(BASE_DIR)
+# print(BASE_DIR)
 
 # 配置文件
 CONFIG_DIR = os.path.join(BASE_DIR, "config", "config.ini")
@@ -23,3 +23,6 @@ TEST_REPORT = os.path.join(BASE_DIR, "report")
 LOG_DIR = os.path.join(BASE_DIR, "log")
 # 截图目录
 Img_DIR = os.path.join(BASE_DIR, "img")
+
+# a = Img_DIR + '\\' '.jpg'
+# print(a)
