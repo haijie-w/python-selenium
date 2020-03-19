@@ -1,0 +1,545 @@
+[2020-03-18 10:14:18,780] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:16:09,889] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:18:58,783] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:19:50,705] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:21:16,221] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:21:47,523] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:26:40,373] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:27:30,079] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:27:57,385] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:28:58,093] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 10:29:01,265] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 10:29:02,374] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 10:29:02,516] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 10:29:05,623] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 10:29:05,737] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 10:29:05,857] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 10:29:05,959] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 10:29:06,064] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 10:29:06,171] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 10:29:07,307] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 10:29:09,454] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 10:33:44,469] - logger.py] - INFO: 执行sql语句
+[2020-03-18 10:34:57,538] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 10:35:00,666] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 10:35:01,782] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 10:35:01,905] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 10:35:05,015] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 10:35:05,125] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 10:35:05,228] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 10:35:05,346] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 10:35:05,459] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 10:35:05,563] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 10:35:06,672] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 10:52:24,202] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 10:52:27,319] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 10:52:28,435] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 10:52:28,650] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 10:52:31,827] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 10:52:31,939] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 10:52:32,052] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 10:52:32,169] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 10:52:32,301] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 10:52:32,469] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 10:52:33,685] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 11:49:47,805] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 11:49:50,943] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 11:49:52,058] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 11:49:52,186] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 11:49:55,295] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 11:49:55,408] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 11:49:55,522] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 11:49:55,629] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 11:49:55,736] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 11:49:55,846] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 11:49:56,967] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 11:51:34,951] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 11:51:38,077] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 11:51:39,183] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 11:51:39,336] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 11:51:42,453] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 11:51:42,564] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 11:51:42,671] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 11:51:42,782] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 11:51:42,887] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 11:51:43,004] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 11:51:44,123] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 11:51:46,295] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 11:59:22,945] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 11:59:26,058] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 11:59:27,205] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 11:59:27,378] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 11:59:30,495] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 11:59:30,601] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 11:59:30,709] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 11:59:30,818] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 11:59:30,922] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 11:59:31,035] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 11:59:32,143] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 11:59:34,288] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:00:44,066] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:00:47,185] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:00:48,297] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:00:48,456] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:00:51,580] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:00:51,693] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:00:51,809] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:00:51,927] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:00:52,053] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:00:52,171] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:00:54,310] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:00:56,460] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:01:53,048] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:01:56,185] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:01:57,292] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:01:57,434] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:02:00,542] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:02:00,656] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:02:00,769] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:02:00,878] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:02:00,989] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:02:01,096] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:02:02,217] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:02:04,358] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:03:08,741] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:03:11,857] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:03:12,964] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:03:13,124] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:03:16,244] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:03:16,344] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:03:16,451] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:03:16,561] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:03:16,673] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:03:16,771] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:03:17,887] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:03:20,106] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:03:48,781] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:03:51,907] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:03:53,019] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:03:53,145] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:03:56,263] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:03:56,378] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:03:56,490] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:03:56,597] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:03:56,710] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:03:56,821] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:03:57,930] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:04:00,075] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:07:42,911] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:09:45,050] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:12:18,504] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:14:18,978] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:24:25,346] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:24:27,473] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:24:28,094] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:24:28,207] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:24:31,313] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:24:31,420] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:24:31,527] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:24:31,630] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:24:31,741] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:24:31,845] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:24:32,959] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:24:35,098] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:24:37,301] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:25:14,951] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:25:17,069] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:25:17,692] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:25:17,849] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:25:20,975] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:25:21,107] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:25:21,211] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:25:21,317] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:25:21,426] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:25:21,535] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:25:22,644] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:25:24,778] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:26:44,726] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:26:46,849] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:26:47,501] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:26:47,690] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:26:50,891] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:26:51,014] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:26:51,142] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:26:51,262] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:26:51,381] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:26:51,492] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:26:52,613] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:26:54,775] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:28:01,951] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:28:04,066] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:28:04,722] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:28:04,859] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:28:07,988] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:28:08,100] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:28:08,219] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:28:08,330] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:28:08,445] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:28:08,562] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:28:09,702] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:28:11,849] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:30:23,668] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:30:27,584] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:32:22,440] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:32:24,561] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:32:25,190] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:32:25,332] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:32:27,459] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:32:27,578] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:32:27,687] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:32:27,794] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:32:27,910] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:32:28,022] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:32:29,133] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:32:31,269] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:33:18,401] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:33:20,518] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:33:21,162] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:33:21,288] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:33:23,397] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:33:23,505] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:33:23,623] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:33:23,728] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:33:23,841] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:33:23,961] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:33:25,105] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:33:27,249] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:33:29,446] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:35:13,224] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:35:15,698] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:36:34,438] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:37:32,046] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:37:34,205] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:37:34,824] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:37:34,958] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:37:37,070] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:37:37,186] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:37:37,303] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:37:37,410] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:37:37,525] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:37:37,644] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:37:38,764] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:37:40,907] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:37:43,199] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:39:13,431] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:39:15,571] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:39:17,224] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:39:17,411] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:39:19,533] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:39:19,647] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:39:19,753] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:39:19,885] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:39:20,005] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:39:20,113] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:39:21,232] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:39:23,382] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:39:25,588] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:41:15,067] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:41:17,204] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:41:17,828] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:41:18,015] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:41:20,142] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:41:20,256] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:41:20,372] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:41:20,497] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:41:20,611] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:41:20,721] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:41:21,844] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:41:24,001] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:41:26,194] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:42:17,502] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:42:19,659] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:42:20,294] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:42:20,513] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:42:22,668] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:42:22,792] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:42:22,918] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:42:23,040] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:42:23,170] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:42:23,284] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:42:24,412] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:42:26,563] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:42:28,788] - logger.py] - INFO: 执行sql语句
+[2020-03-18 12:45:49,522] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 12:45:51,645] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 12:45:52,330] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 12:45:52,556] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 12:45:54,692] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 12:45:54,807] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 12:45:54,928] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 12:45:55,045] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 12:45:55,179] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 12:45:55,296] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 12:45:56,421] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 12:45:57,570] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 12:46:00,127] - logger.py] - INFO: 执行sql语句
+[2020-03-18 13:11:46,404] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 13:12:55,563] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 13:12:58,683] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 13:12:59,786] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 13:12:59,914] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 13:13:02,030] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 13:13:02,146] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 13:13:02,256] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 13:13:02,379] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 13:13:02,482] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 13:13:02,582] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 13:13:03,692] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:26:08,958] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 17:26:12,115] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 17:26:13,226] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 17:26:13,407] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 17:26:15,518] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 17:26:15,626] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 17:26:15,739] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 17:26:15,842] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 17:26:15,941] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 17:26:16,045] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 17:26:17,155] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:26:18,287] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:28:12,005] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 17:28:15,117] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 17:28:16,226] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 17:28:16,331] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 17:28:18,438] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 17:28:18,548] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 17:28:18,656] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 17:28:18,757] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 17:28:18,861] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 17:28:18,962] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 17:28:22,629] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:28:23,757] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:30:52,652] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 17:30:55,781] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 17:30:56,889] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 17:30:57,013] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 17:30:59,157] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 17:30:59,268] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 17:30:59,378] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 17:30:59,488] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 17:30:59,600] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 17:30:59,703] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 17:31:00,811] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 17:31:02,975] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 17:31:05,198] - logger.py] - INFO: 执行sql语句
+[2020-03-18 21:39:10,971] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 21:39:24,591] - logger.py] - INFO: 噢啦爱心-热门活动 is not display
+[2020-03-18 21:39:34,971] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 21:39:45,477] - logger.py] - INFO: 噢啦爱心-以废代捐 is not display
+[2020-03-18 21:43:19,367] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 21:43:22,601] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 21:43:23,831] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 21:43:24,016] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 21:43:26,651] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 21:43:37,158] - logger.py] - INFO: 噢啦爱心-热门活动 is not display
+[2020-03-18 21:43:47,641] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 21:43:58,134] - logger.py] - INFO: 噢啦爱心-以废代捐 is not display
+[2020-03-18 21:45:02,320] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 21:45:05,533] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 21:45:06,730] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 21:45:06,885] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 21:45:09,000] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 21:45:09,196] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 21:45:09,301] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 21:45:09,420] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 21:45:09,535] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 21:45:09,639] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 21:45:10,764] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 21:45:11,987] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 21:45:14,210] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-18 21:45:15,407] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-18 21:45:16,660] - logger.py] - INFO: Click back on current page.
+[2020-03-18 21:45:17,780] - logger.py] - INFO: Click back on current page.
+[2020-03-18 21:45:28,286] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 21:45:38,755] - logger.py] - INFO: 噢啦爱心-以废代捐 is not display
+[2020-03-18 21:49:42,075] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 21:49:45,529] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 21:49:46,764] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 21:49:46,960] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 21:49:49,091] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 21:49:49,289] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 21:49:49,407] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 21:49:49,537] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 21:49:49,661] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 21:49:49,769] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 21:49:50,908] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 21:49:53,220] - logger.py] - INFO: Click back on current page.
+[2020-03-18 21:49:53,288] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 21:50:05,855] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 21:50:16,337] - logger.py] - INFO: 噢啦爱心-以废代捐 is not display
+[2020-03-18 21:54:29,571] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 21:54:32,695] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 21:54:33,902] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 21:54:34,074] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 21:54:36,193] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 21:54:36,396] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 21:54:36,504] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 21:54:36,633] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 21:54:36,766] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 21:54:36,895] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 21:54:38,040] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 21:54:40,321] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-18 21:54:52,562] - logger.py] - ERROR: 数据库连接错误：出错是:(2003, "Can't connect to MySQL server on 'uat.oola.cn' (timed out)")
+[2020-03-18 21:54:52,674] - logger.py] - INFO: Click back on current page.
+[2020-03-18 21:54:52,688] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 21:55:05,247] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 21:55:15,754] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 22:00:21,031] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:00:24,251] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:00:25,439] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:00:25,739] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:00:27,873] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:00:28,081] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:00:28,232] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:00:28,379] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:00:28,515] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:00:28,618] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:00:29,718] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:00:30,905] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:00:33,200] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:00:33,405] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:05:55,247] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:05:58,470] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:05:59,684] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:05:59,831] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:06:01,952] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:06:02,127] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:06:02,220] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:06:02,313] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:06:02,422] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:06:02,554] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:06:03,687] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:06:04,936] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:06:07,194] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:06:07,347] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:06:08,458] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-18 22:09:21,866] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:09:25,097] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:09:26,291] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:09:26,446] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:09:28,564] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:09:28,765] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:09:28,904] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:09:28,999] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:09:29,103] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:09:29,223] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:09:30,358] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:09:31,591] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:09:33,796] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:09:33,961] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:11:51,156] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:11:54,562] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:11:55,772] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:11:55,941] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:12:37,474] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:12:41,013] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:12:42,221] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:12:42,393] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:14:18,081] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:14:21,300] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:14:22,523] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:14:22,712] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:14:24,845] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:14:25,055] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:14:25,175] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:14:25,282] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:14:25,379] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:14:25,499] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:14:26,625] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:14:27,878] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:14:30,105] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:14:30,316] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:14:31,495] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-18 22:15:30,984] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:15:34,227] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:15:35,424] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:15:35,601] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:15:37,716] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:15:37,842] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:15:37,964] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:15:38,103] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:15:38,256] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:15:38,388] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:15:39,513] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:15:40,750] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:15:43,039] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:15:43,240] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:15:53,747] - logger.py] - INFO: 噢啦爱心-以废代捐 is not display
+[2020-03-18 22:17:17,161] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:17:20,636] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:17:21,851] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:17:22,035] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:17:34,606] - logger.py] - INFO: 个人页面-数字1 is not display
+[2020-03-18 22:17:45,070] - logger.py] - INFO: 个人页面-噢啦爱心首页 is not display
+[2020-03-18 22:17:55,561] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 22:19:08,124] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:19:15,818] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:19:27,463] - logger.py] - INFO: 个人页面-输入手机号 is not display
+[2020-03-18 22:19:27,549] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:19:29,721] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:19:29,919] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:19:38,654] - logger.py] - INFO: 刷新页面
+[2020-03-18 22:22:35,318] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:22:38,721] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:22:39,940] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:22:40,141] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:22:42,251] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:22:42,455] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:22:42,583] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:22:42,688] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:22:42,779] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:22:42,870] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:22:43,997] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:22:45,259] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:22:47,516] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:22:47,737] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:24:03,755] - logger.py] - INFO: 刷新页面
+[2020-03-18 22:24:04,137] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-18 22:24:12,082] - logger.py] - INFO: 噢啦爱心-以废代捐 is display
+[2020-03-18 22:24:23,746] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is not display
+[2020-03-18 22:27:26,076] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:27:29,400] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:27:30,597] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:27:30,776] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:27:32,910] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:27:33,100] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-18 22:27:33,201] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-18 22:27:33,290] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-18 22:27:33,392] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-18 22:27:33,509] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-18 22:27:34,632] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-18 22:27:35,889] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:27:38,158] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:27:38,364] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:28:11,025] - logger.py] - INFO: 刷新页面
+[2020-03-18 22:28:11,424] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-18 22:28:14,608] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-18 22:34:25,904] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:34:29,135] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:34:32,444] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:34:32,650] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:34:35,300] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:34:45,830] - logger.py] - INFO: 个人页面-噢啦爱心首页 is not display
+[2020-03-18 22:34:56,320] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 22:36:33,009] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:36:39,023] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:36:47,598] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:36:47,741] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:36:54,038] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-18 22:37:04,556] - logger.py] - INFO: 个人页面-噢啦爱心首页 is not display
+[2020-03-18 22:37:15,015] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 22:37:25,416] - logger.py] - INFO: 噢啦爱心-项目详情页引导图 is not display
+[2020-03-18 22:39:18,802] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:39:32,780] - logger.py] - INFO: 个人页面-登录按钮 is not display
+[2020-03-18 22:39:32,850] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-18 22:39:34,981] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:39:35,215] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-18 22:40:02,329] - logger.py] - INFO: 刷新页面
+[2020-03-18 22:40:53,842] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-18 22:40:57,081] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-18 22:40:58,204] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-18 22:40:58,362] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-18 22:41:11,923] - logger.py] - INFO: 个人页面-数字1 is not display
+[2020-03-18 22:41:22,462] - logger.py] - INFO: 个人页面-噢啦爱心首页 is not display
+[2020-03-18 22:41:33,242] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-18 22:41:43,806] - logger.py] - INFO: 噢啦爱心-项目详情页引导图 is not display
