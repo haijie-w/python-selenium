@@ -6,26 +6,19 @@
 @IDE     : PyCharm
 """
 
-import sys
 from common.commonFuction import UIHandle
 from common.commonFuction import WebHandle
 from config.config import browser_config
 from config.config import local_constant
-from config.config import local_config
-import time
 from time import sleep
-from datetime import *
-from xlutils.copy import copy
-from selenium import webdriver
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.support.ui import Select
-from xlrd import xldate_as_tuple
-from selenium.webdriver.common.keys import Keys
 
+
+# 此文件中封装打开浏览器和切换模块操作
 global driver
 driver = browser_config['chrome']
 # 暂时在此处切换测试环境地址
-url = local_constant['H5_uat_URL']
+# url = local_constant['H5_uat_URL']
+url = local_constant['H5_Test_URL']
 
 # 打开进入微端首页
 # class commomFunction():
@@ -48,7 +41,7 @@ def logIn():
     webhandle = WebHandle(driver)
     uihandle.get(url)
     # uihandle.maxiWindow()
-    sleep(2)
+    sleep(1)
     return driver
 
 

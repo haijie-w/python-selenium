@@ -21,102 +21,33 @@ from time import sleep
 global driver
 global userID
 
-#
-# # 点击进入个人模块
-# def loginModule(driver):
-#     try:
-#         # webhandle = WebHandle(driver)
-#         # # personal = local_config['个人模块']
-#         # webhandle.Click('个人页面','个人模块')
-#         logIn()
-#         changeModule(driver, '个人页面', '个人模块')
-#         # sleep(1)
-#         print(r"进入个人模块")
-#     except Exception as e:
-#         print(r"进入个人模块失败", e)
-#         # sleep(1)
-#
-#
-# # 点击进入到登录/注册页面
-# def loginPage(driver):
-#     try:
-#         webhandle = WebHandle(driver)
-#         # login_page = element_config['login_page']
-#         # self.driver1.login_page(login_page)
-#         webhandle.Click('个人页面', '登录按钮')
-#         # sleep(1)
-#         print(r"成功进入注册页面")
-#         # phoneText = driver.find_element(By.XPATH, "//*[@id='telephone']").text
-#         # print(phoneText)
-#     except Exception as e:
-#         print(r"进入登录/注册页面失败", e)
-#
-#
-# # 在登录页面输入手机号码
-# def phoneInput(driver):
-#     try:
-#         webhandle = WebHandle(driver)
-#         # 从配置中随机获取一个手机号
-#         # inputNumber = basic_config['inputNumber']
-#         phone = random.choice(basic_config.get('phone'))
-#         # webhandle.Click('个人页面','输入手机号')
-#         webhandle.Input('个人页面', '输入手机号', phone)
-#         print(r"输入手机号成功")
-#     except Exception as e:
-#         print(r"输入手机号失败", e)
-#
-#
-# # 点击发送验证码
-# def sendMessageCode(driver):
-#     try:
-#         webhandle = WebHandle(driver)
-#         webhandle.Click('个人页面', '发送验证码')
-#         print(r"成功发送验证码")
-#     except Exception as e:
-#         print(r"发送验证码失败", e)
-#     sleep(2)
-#
-#
-# # 输入6位数验证码
-# def inputMessageCode(driver):
-#     try:
-#         webhandle = WebHandle(driver)
-#         webhandle.Click('个人页面', '数字1')
-#         webhandle.Click('个人页面', '数字2')
-#         webhandle.Click('个人页面', '数字3')
-#         webhandle.Click('个人页面', '数字4')
-#         webhandle.Click('个人页面', '数字5')
-#         webhandle.Click('个人页面', '数字6')
-#         print(r"成功输入验证码")
-#         sleep(1)
-#     except Exception as e:
-#         print(r"验证码输入失败", e)
 
-# 关闭引导图图层（点击噢啦豆图标）
+# 关闭个人页面-用户登录后的引导图图层（点击噢啦豆图标）
 def clickOola(driver):
     try:
         webhandle = WebHandle(driver)
-        # webhandle.Click('个人页面', '引导图图层')
-        # print(r"关闭个人页面引导图图层")
-        bean = webhandle.getElementText('个人页面', '用户噢啦豆')
-        # print(r'用户的噢啦豆为' + ":" + bean)
-        # print(type(bean))
+        # 获取用户登录后的噢啦豆数量
+        bean = GlobalMap.get('bean')
         sleep(1)
+        # 判断用户噢啦豆是否充足，不够设置的数量，则为用户充值
         if int(bean) < 20:
             webhandle.Click('个人页面', '用户头像')
             print(r"进入用户设置页面")
             sleep(1)
             userID = webhandle.getElementText('个人页面', '用户ID')
-            # print(type(userID))
             print('用户的ID为' + ":" + userID)
             sleep(1)
+            # 保存获取到的用户ID信息
+            GlobalMap.set_map('userid',userID)
+            # 建立数据库连接
             x = DB()
-            userID1 = int(userID)
+            # userID1 = int(userID)
+            # 为用户充值10个噢啦豆
             y = "update star_user SET credit=credit+10 WHERE id = " + userID
             y1 = "select credit from star_user WHERE id = " + userID
             x.delete(y)
             credit1 = x.select_oneInt(y1)
-            # print("credit1", credit1)
+            # 更新修改后的用户噢啦豆信息
             GlobalMap.set_map('bean', credit1)
             # print(GlobalMap.get('bean'))
             print("用户增加后的噢啦豆数量为" + ":" + str(credit1))
@@ -141,20 +72,20 @@ def userSetting(driver):
         print(r"进入用户设置页面失败", e)
 
 # 点击进入我的地址页面
-def clickAddress(driver):
+def addAddress(driver,name):
+    webhandle = WebHandle(driver)
     try:
-        webhandle = WebHandle(driver)
         webhandle.Click('个人页面', '我的地址')
-        print(r"进入我的地址页面")
-        sleep(0.5)
+        # print(r"进入我的地址页面")
+        sleep(2)
     except Exception as e:
         print(r"进入我的地址页面失败", e)
-    sleep(1)
-
-# 新增我的地址并设置为默认地址（广州市）
-def addAddress(driver,name):
-    try:
-        webhandle = WebHandle(driver)
+    # 判断地址页面是否不存在地址信息，若不存在则新建地址，若存在则打印当前地址信息
+    bool1 = Assert.assertXPathExistByXPath('个人页面', '无地址信息')
+    if bool1 == False:
+        address1 = webhandle.getText("//*[@class='address-item']/div/div[1]/div/div[2]")
+        print('已有地址信息',address1)
+    else:
         webhandle.Click('个人页面', '添加地址')
         print(r"进入添加地址页面")
         sleep(0.5)
@@ -163,13 +94,11 @@ def addAddress(driver,name):
         webhandle.Click('个人页面', '地址')
         sleep(1)
         webhandle.Click('个人页面', '地址选择框')
-        # sleep(1)
         webhandle.Click('个人页面', '广州')
-        # sleep(1)
         webhandle.Click('个人页面', '搜索城市')
         sleep(1)
         webhandle.Input('个人页面', '搜索城市', '中信广场')
-        sleep(1)
+        sleep(2)
         webhandle.Click('个人页面', '第一个结果')
         sleep(0.5)
         webhandle.Input('个人页面', '详细地址','1001房')
@@ -181,9 +110,6 @@ def addAddress(driver,name):
         print(r'返回到个人页面')
         UIHandle.back()
         print(r'返回到个人中心页面')
-    except Exception as e:
-        print(r"添加地址失败", e)
-    sleep(1)
 
 # 进入回收订单页面
 def recycleList(driver):
@@ -272,18 +198,11 @@ def aboutOola(driver):
 
 
 if __name__ == "__main__":
-    # loginModule(driver)
-    # loginPage(driver)
-    # phoneInput(driver)
-    # sendMessageCode(driver)
-    # inputMessageCode(driver)
     a = Login(driver)
     a.login(driver)
     clickOola(driver)
     # userSetting(driver)
-    # clickAddress(driver)
-    # addAddress(driver)
-    # addNewAddress(driver,'whj')
+    addAddress(driver,'whj')
     # recycleList(driver)
     # loveRecord(driver)
     # task(driver)

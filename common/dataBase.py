@@ -10,9 +10,9 @@ from common import logger
 import json
 # 在此处切换测试库连接地址
 # 测试环境数据库
-# databaseName = 'DATABASE_Test'
+databaseName = 'DATABASE_Test'
 # UAT环境数据库
-databaseName = 'DATABASE_Uat'
+# databaseName = 'DATABASE_Uat'
 host = conf.ReadConfig().get_db(databaseName, 'host')
 user = conf.ReadConfig().get_db(databaseName, 'username')
 password = conf.ReadConfig().get_db(databaseName, 'password')

@@ -65,6 +65,7 @@ local_config = {
         '引导图图层': ['xpath', "//*[@id='guide-layer']/div/img"],
         '用户头像': ['xpath', "//div[@class='basic-info']/img"],
         '我的地址': ['xpath', "//ul[@class='info-list']/li[3]"],
+        '无地址信息': ['xpath', "//div[@class='empty-addr empty-page']"],
         '添加地址': ['xpath', "//*[@class='add-addr']/div"],
         '联系人': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div[1]/div/input"],
         '地址': ['xpath', "//div[@class='extra-item']/input"],
@@ -139,10 +140,14 @@ local_config = {
         '确定回收品类数量': ['xpath', "//div[@class='bottom-area flex-row ']/div[2]"],
         '选择上门取件地址': ['xpath', "//div[@class='address part-item']/div[2]/div[1]"],
         '选择上门取件时间': ['xpath', "//div[@class='time part-item']/div[2]/div[1]"],
-        '确定预约': ['xpath', "//div[@class='recycle-tri-orderConfirm'/div[3]/div[3]]"],
+        '确定预约': ['xpath', "//div[@class='bottom-btn']"],
         '确定上门取件时间': ['xpath', "//div[@class='timepop-btn']"],
-        '预约成功': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[1]/div/div/p[1]"],
+        '预约成功': ['xpath', "//p[@class='title']"],
         '分享成就': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[3]/div[2]"],
+        '支持项目': ['xpath', "//div[@class='card-list']/div[1]/div/div[2]"],
+        '支持项目名称': ['xpath', "//div[@class='card-list']/div[1]/div/div[1]/p"],
+        '确认捐赠': ['xpath', "//div[@class='donate-btn']"],
+
 
 
 

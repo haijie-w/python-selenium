@@ -58,7 +58,6 @@ class Login():
             sleep(1)
             webhandle.Click('个人页面', '引导图图层')
             # print(r"关闭个人页面引导图图层")
-            # global bean1
             bean0 = webhandle.getElementText('个人页面', '用户噢啦豆')
             print(r'登录成功，用户的噢啦豆为' + ":" + bean0)
             bean1 = int(bean0)
