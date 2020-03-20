@@ -1,6 +1,8 @@
 # -*- coding:utf-8 -*-
 # Author:Allen
 from selenium import webdriver
+import random
+import string
 
 # 1.浏览器种类维护在此处
 # 通过device name设置模拟的手机设备
@@ -20,36 +22,24 @@ local_constant = {
 
 # 1.基本的配置元素
 basic_config = {'url': 'https://oola-m-tt.oola.cn/h5/#/recycle?channel=136_1',
-                'phone': [18011723750, 18011723722,18562659835, 18011722533, 18022569802, 13421083222], 'code': '326618'}
+                'phone': [18011722750, 18011723722,18562614835, 18011722533, 18026568802, 13427083222], 'code': '326618'}
 
-# 平安三春晖定位元素
-pingan_config = {'平安三春晖登录': {
-    '广告加载页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
-    # '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]"],
-    '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[6]/div[2]/a[3]/div[2]/div"],
-    '登录页面': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[2]"],
-    '输入手机号码': ['xpath', "//input[@id='telephone']"],
-    '点击发送验证码': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div[2]"],
-    '引导图图层': ['xpath', "//*[@id='guide-layer']/div/img"],
-    '键盘数字1': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[1]"],
-    '键盘数字2': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[2]"],
-    '键盘数字3': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[1]/div[3]"],
-    '键盘数字4': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[1]"],
-    '键盘数字5': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[2]"],
-    '键盘数字6': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[2]/div[3]"],
-    '键盘数字7': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[1]"],
-    '键盘数字8': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[2]"],
-    '键盘数字9': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[3]/div[3]"],
-    '键盘数字0': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[2]"],
-    '键盘数字删除': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div/div/div/div[3]/div[4]/div[3]"],
-},
-}
+# 生成随机的登录手机号
+all_phone_nums = []
+num_start = ['180', '189', '158']
+# 生成随机的50个手机号码
+for i in range(50):
+    start = random.choice(num_start)
+    end = ''.join(random.sample(string.digits,8))
+    res = start+end
+    all_phone_nums.append(res)
 
 # H5页面定位信息维护在此处，维护结构由外到内为：页面名称--页面下元素名称--元素的定位方式+参数
 local_config = {
 
     '个人页面': {
         # '个人模块': ['xpath', "//*[@id='app']/div[2]/div[1]/div[2]/a[3]/div[2]"],
+        '广告加载页': ['xpath', "//*[@id='app']/div[2]/div[1]/div[1]/div[1]/div[2]/div/img"],
         '噢啦爱心首页': ['xpath', "//div[@class='tabbar-icon-1']"],
         '环保回收页': ['xpath', "//div[@class='tabbar-icon-2']"],
         '个人模块': ['xpath', "//div[@class='tabbar-icon-3']"],
@@ -124,6 +114,8 @@ local_config = {
         '当前噢啦豆数量': ['xpath', "//div[@class='popup']/div[1]/p/span[1]"],
         '支持噢啦豆': ['xpath', "//div[@class='popup']/div[1]/div/label/input"],
         '支持项目1': ['xpath', "//div[@class='immediate-recovery immediate-recovery-prohibit']/span"],
+        '查看证书': ['xpath', "//div[@class='popup project']/div/div/span[2]"],
+
 
 
 
@@ -131,11 +123,11 @@ local_config = {
 
     '环保回收': {
         '选择发起回收地址': ['xpath', "//div[@class='position flex-line addr']/img"],
-        '广州': ['xpath', "//div[@class='content is-prepend']/li[3]/div"],
-        '衣帽鞋包': ['xpath', "//div[@class='recycle-list']/div[1]/div[1]/img"],
-        '手机数码': ['xpath', "//div[@class='recycle-list']/div[1]/div[2]/img"],
-        '闲置家电': ['xpath', "//div[@class='recycle-list']/div[1]/div[3]/img"],
-        '家用电器': ['xpath', "//div[@class='recycle-list']/div[1]/div[4]/img"],
+        '广州': ['xpath', "//ul[@class='content is-prepend']/li[3]/div"],
+        '第一个回收品类': ['xpath', "//div[@class='recycle-list']/div/div[1]/img"],
+        '第二个回收品类': ['xpath', "//div[@class='recycle-list']/div/div[2]/img"],
+        '第三个回收品类': ['xpath', "//div[@class='recycle-list']/div/div[3]/img"],
+        '第四个回收品类': ['xpath', "//div[@class='recycle-list']/div/div[4]/img"],
         '衣帽鞋包的开通区域': ['xpath', "//div[@class='open-area']/div[2]/div[1]/img"],
         '手机数码的开通区域': ['xpath', "//div[@class='open-area']/div[2]/div[2]/img"],
         '闲置家电的开通区域': ['xpath', "//div[@class='open-area']/div[2]/div[3]/img"],
@@ -147,6 +139,10 @@ local_config = {
         '确定回收品类数量': ['xpath', "//div[@class='bottom-area flex-row ']/div[2]"],
         '选择上门取件地址': ['xpath', "//div[@class='address part-item']/div[2]/div[1]"],
         '选择上门取件时间': ['xpath', "//div[@class='time part-item']/div[2]/div[1]"],
+        '确定预约': ['xpath', "//div[@class='recycle-tri-orderConfirm'/div[3]/div[3]]"],
+        '确定上门取件时间': ['xpath', "//div[@class='timepop-btn']"],
+        '预约成功': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[1]/div/div/p[1]"],
+        '分享成就': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[3]/div[2]"],
 
 
 

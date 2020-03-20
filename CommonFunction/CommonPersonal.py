@@ -8,19 +8,14 @@
 
 # 个人中心业务功能脚本（用例脚本可调用此处的功能脚本）
 
-import importlib, sys
+import importlib
+import sys
+
 importlib.reload(sys)
-from common.commonFuction import *
-from CommonFunction.CommomFunction import *
 from CommonFunction.login import *
-from config.config import browser_config
-from config.config import local_constant
-from config.config import local_config
-from config.config import basic_config
 from common.dataBase import *
-from selenium.webdriver.common.by import By
+from common.globalvar import GlobalMap
 from time import sleep
-import random
 
 
 global driver
@@ -121,7 +116,9 @@ def clickOola(driver):
             y1 = "select credit from star_user WHERE id = " + userID
             x.delete(y)
             credit1 = x.select_oneInt(y1)
-            print(credit1)
+            # print("credit1", credit1)
+            GlobalMap.set_map('bean', credit1)
+            # print(GlobalMap.get('bean'))
             print("用户增加后的噢啦豆数量为" + ":" + str(credit1))
         else:
             print(r"用户当前的噢啦豆够用了")

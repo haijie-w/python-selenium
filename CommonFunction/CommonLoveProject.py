@@ -12,10 +12,7 @@ import importlib, sys
 importlib.reload(sys)
 from common.commonFuction import *
 from CommonFunction.CommomFunction import *
-from config.config import browser_config
-from config.config import local_constant
-from config.config import local_config
-from config.config import basic_config
+from CommonFunction.CommonPersonal import clickOola
 from CommonFunction.login import Login
 from common.globalvar import GlobalMap
 # from CommonFunction.CommonPersonal import *
@@ -25,50 +22,45 @@ from time import sleep
 import time
 import random
 
-global bean11
-bean11 = GlobalMap()
 # 点击进入个人模块
 def loveModule(driver):
     try:
-        webhandle = WebHandle(driver)
+        # webhandle = WebHandle(driver)
         a = Login(driver)
         a.login(driver)
-        # clickOola(driver)
-        # UIHandle.back()
+        clickOola(driver)
+        UIHandle.back()
         changeModule(driver, '个人页面', '噢啦爱心首页')
         # Ec.title_contains("噢啦爱心")
-        webhandle.Click('噢啦爱心', '爱心项目')
-        # sleep(1)
+        # webhandle.Click('噢啦爱心', '爱心项目')
         print(r"进入爱心首页")
     except Exception as e:
         print(r"进入爱心首页失败", e)
-        # sleep(1)
 
 # 点击进入热门活动
-def hotActivity(driver):
-    try:
-        webhandle = WebHandle(driver)
-        webhandle.Click('噢啦爱心', '热门活动')
-        # print(r"进入热门活动")
-        sleep(1)
-        webhandle.Click('噢啦爱心', '第二个热门活动')
-        # print(r"点击第一个热门活动")
-        sleep(1)
-        title = UIHandle.get_page_title()
-        print("第一个热门活动的标题是" + ":" + title)
-        UIHandle.back()
-        sleep(1)
-        UIHandle.back()
-        print(r"返回到爱心首页")
-    except Exception as e:
-        print(r"进入热门活动失败", e)
-        # sleep(1)
+# def hotActivity(driver):
+#     try:
+#         webhandle = WebHandle(driver)
+#         webhandle.Click('噢啦爱心', '热门活动')
+#         webhandle.Click('噢啦爱心', '第二个热门活动')
+#         # print(r"点击第二个热门活动")
+#         # sleep(1)
+#         title = UIHandle.get_page_title()
+#         UIHandle.get_screent_img('热门活动')
+#         print("第一个热门活动的标题是" + ":" + title)
+#         UIHandle.back()
+#         sleep(1)
+#         UIHandle.back()
+#         print(r"返回到爱心首页")
+#     except Exception as e:
+#         print(r"进入热门活动失败", e)
+#         # sleep(1)
 
 # 点击进入爱心项目
 def loveProject(driver):
     try:
         webhandle = WebHandle(driver)
-        # webhandle.Click('噢啦爱心', '爱心项目')
+        webhandle.Click('噢啦爱心', '爱心项目')
         # print(r"进入爱心项目")
         sleep(1)
         # UIHandle.refresh()
@@ -98,8 +90,8 @@ def supportProject(driver,num):
         webhandle.clearText('噢啦爱心', '支持噢啦豆')
         webhandle.Input('噢啦爱心', '支持噢啦豆', num)
         # sleep(1)
-        beanLove = bean11.get('bean')
-        print(beanLove)
+        beanLove = GlobalMap.get('bean')
+        # print(beanLove)
         # 对比用户现有噢啦豆与捐献的噢啦豆数量
         if beanLove < num:
             webhandle.Click('噢啦爱心', '支持项目1')
@@ -110,10 +102,14 @@ def supportProject(driver,num):
             UIHandle.get_screent_img()
         else:
             webhandle.Click('噢啦爱心', '支持项目1')
-            result1 = webhandle.getText("//div[@class='popup project']/div[1]/h3")
-            result2 = webhandle.getText("//div[@class='popup project']/div[1]/p")
-            print(r"支持项目成功", result1, result2)
+            # result1 = webhandle.getText("//div[@class='popup project']/div[@class='info']/h3")
+            # result2 = webhandle.getText("//div[@class='popup project']/div[@class='info']/p")
+            # print(r"支持项目成功", result1, result2)
+            webhandle.Click('噢啦爱心', '查看证书')
+            sleep(1)
+            UIHandle.get_screent_img('爱心证书')
         sleep(1)
+
     except Exception as e:
         print(r"支持爱心项目失败", e)
         # sleep(1)
