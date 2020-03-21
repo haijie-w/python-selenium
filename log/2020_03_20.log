@@ -1,0 +1,1006 @@
+[2020-03-20 10:26:35,639] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:26:37,789] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:26:38,404] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:26:38,513] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:26:40,643] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:26:40,749] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:26:40,854] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:26:40,957] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:26:41,059] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:26:41,167] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:26:42,274] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:26:43,400] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:26:45,561] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:26:47,216] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:26:47,841] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:26:47,932] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:26:49,070] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:26:49,292] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:26:49,401] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:26:50,525] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:26:51,608] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:26:52,264] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:26:52,353] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:26:52,962] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:26:54,120] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:26:54,177] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:26:55,208] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:26:57,405] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:26:59,545] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:27:00,234] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:27:01,004] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:27:01,043] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:27:02,180] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:27:02,794] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:27:13,274] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 10:30:39,068] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:30:41,227] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:30:41,912] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:30:42,045] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:30:44,165] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:30:44,275] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:30:44,380] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:30:44,479] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:30:44,589] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:30:44,718] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:30:45,851] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:30:47,030] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:30:49,295] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:30:50,951] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:30:51,583] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:30:51,669] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:30:52,788] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:30:52,979] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:30:53,087] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:30:54,192] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:30:55,284] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:30:55,914] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:30:56,010] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:30:56,641] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:30:57,831] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:30:57,879] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:30:58,915] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:31:01,060] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:31:03,190] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:31:03,834] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:31:04,621] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:31:04,683] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:31:05,827] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:31:06,479] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:31:16,915] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 10:34:13,649] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:34:15,846] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:34:16,486] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:34:16,596] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:34:18,715] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:34:18,823] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:34:18,947] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:34:19,076] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:34:19,205] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:34:19,308] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:34:20,442] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:34:21,590] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:34:23,746] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:34:25,430] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:34:26,102] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:34:26,211] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:34:27,363] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:34:27,614] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:34:27,717] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:34:28,839] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:34:29,937] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:34:30,575] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:34:30,681] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:34:31,319] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:34:32,478] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:34:32,518] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:34:33,555] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:34:35,718] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:34:37,852] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:34:38,521] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:34:39,316] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:34:39,386] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:34:40,519] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:34:41,141] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:34:51,631] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 10:36:00,715] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:36:02,851] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:36:03,466] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:36:03,577] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:36:05,695] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:36:05,809] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:36:05,938] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:36:06,051] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:36:06,153] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:36:06,256] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:36:07,363] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:36:08,499] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:36:10,676] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:36:12,309] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:36:12,951] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:36:13,072] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:36:14,213] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:36:14,452] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:36:14,563] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:36:15,677] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:36:16,758] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:36:17,394] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:36:17,476] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:36:18,099] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:36:19,250] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:36:19,291] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:36:20,329] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:36:22,454] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:36:24,572] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:36:25,308] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:36:26,065] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:36:26,140] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:36:27,260] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:36:27,894] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:36:38,423] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 10:46:01,163] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:46:03,295] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:46:04,011] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:46:04,118] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:46:06,231] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:46:06,353] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:46:06,461] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:46:06,564] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:46:06,666] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:46:06,775] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:46:07,886] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:46:09,014] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:46:11,155] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:46:12,783] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:46:13,411] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:46:13,496] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:46:14,633] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:46:14,836] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:46:14,941] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:46:16,046] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:46:17,112] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:46:17,726] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:46:17,813] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:46:18,429] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:46:19,586] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:46:19,637] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:46:20,673] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:46:22,885] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:46:25,046] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:46:25,833] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:46:26,582] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:46:26,622] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:46:27,786] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:46:28,513] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:46:39,101] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 10:50:31,769] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 10:50:33,875] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 10:50:34,489] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 10:50:34,598] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 10:50:36,719] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 10:50:36,841] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 10:50:36,946] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 10:50:37,048] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 10:50:37,151] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 10:50:37,258] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 10:50:38,367] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 10:50:39,502] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 10:50:41,639] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 10:50:43,270] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 10:50:43,896] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 10:50:43,979] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 10:50:45,091] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 10:50:45,276] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 10:50:45,384] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:50:46,488] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 10:50:47,549] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 10:50:48,160] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 10:50:48,241] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 10:50:48,859] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 10:50:49,988] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:50:50,049] - logger.py] - INFO: Click back on current page.
+[2020-03-20 10:50:51,082] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 10:50:53,192] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 10:50:55,303] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 10:50:55,992] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 10:50:56,750] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:50:56,855] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 10:50:58,002] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 10:50:58,660] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 10:50:58,776] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 12:05:02,434] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:05:04,546] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:05:05,171] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:05:05,286] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:05:07,397] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:05:07,509] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:05:07,615] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:05:07,724] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:05:07,828] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:05:07,933] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:05:09,047] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:05:10,182] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:05:12,348] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:05:13,963] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:05:14,581] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 12:05:14,680] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 12:05:15,800] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 12:05:16,001] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 12:05:16,152] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:05:17,258] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:05:18,328] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 12:05:18,941] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 12:05:19,039] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 12:05:19,657] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 12:05:20,793] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:05:20,885] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:05:21,900] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 12:05:24,011] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 12:05:26,131] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 12:05:26,945] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 12:05:27,759] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:05:27,802] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:05:28,928] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 12:05:29,541] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 12:05:39,891] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 12:14:26,056] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:14:28,171] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:14:28,795] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:14:28,931] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:14:31,046] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:14:31,160] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:14:31,262] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:14:31,373] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:14:31,484] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:14:31,609] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:14:32,716] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:14:33,866] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:14:36,043] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:14:37,683] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:14:48,591] - logger.py] - INFO: 个人页面-联系人 is not display
+[2020-03-20 12:15:07,666] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:15:09,775] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:15:10,409] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:15:10,525] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:15:12,628] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:15:12,733] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:15:12,839] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:15:12,949] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:15:13,057] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:15:13,170] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:15:14,285] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:15:15,441] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:15:17,600] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:15:19,207] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:15:19,818] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 12:15:19,909] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 12:15:21,041] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 12:15:21,235] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 12:15:21,350] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:15:22,456] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:15:23,516] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 12:15:24,134] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 12:15:24,226] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 12:15:24,827] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 12:15:25,967] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:15:26,015] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:15:27,034] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 12:15:29,138] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 12:15:31,257] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 12:15:31,992] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 12:15:32,758] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:15:32,797] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:15:33,968] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 12:15:34,635] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 12:15:45,139] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 12:20:39,467] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:20:41,590] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:20:42,207] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:20:42,346] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:20:44,481] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:20:44,585] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:20:44,682] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:20:44,791] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:20:44,897] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:20:44,997] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:20:46,105] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:20:47,244] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:20:49,378] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:20:51,007] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:20:51,631] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 12:20:51,741] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 12:20:52,873] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 12:20:53,106] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 12:20:53,216] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:20:54,357] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:20:55,447] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 12:20:56,067] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 12:20:56,179] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 12:20:56,808] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 12:20:57,966] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:20:58,021] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:20:59,044] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 12:21:01,167] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 12:21:03,286] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 12:21:03,910] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 12:21:04,686] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:21:04,740] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:21:05,864] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 12:21:06,486] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 12:21:17,972] - logger.py] - INFO: 环保回收-确定上门取件时间 is not display
+[2020-03-20 12:26:35,736] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:26:37,887] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:26:38,507] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:26:38,620] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:26:40,732] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:26:40,839] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:26:40,946] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:26:41,057] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:26:41,170] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:26:41,279] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:26:42,398] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:26:43,536] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:26:46,207] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:26:47,832] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:26:48,442] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 12:26:48,535] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 12:26:49,652] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 12:26:49,865] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 12:26:49,977] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:26:51,185] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:26:52,264] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 12:26:52,894] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 12:26:53,035] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 12:26:53,647] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 12:26:54,809] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:26:54,859] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:26:55,887] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 12:26:57,996] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 12:27:00,120] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 12:27:01,239] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 12:27:02,021] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:27:02,093] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:27:03,252] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 12:27:03,891] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 12:27:05,052] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 12:27:57,543] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 12:27:59,671] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 12:28:00,285] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 12:28:00,426] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 12:28:02,539] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 12:28:02,644] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 12:28:02,745] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 12:28:02,850] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 12:28:02,949] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 12:28:03,048] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 12:28:04,160] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 12:28:05,298] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 12:28:07,452] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 12:28:09,077] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 12:28:09,682] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 12:28:09,812] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 12:28:10,931] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 12:28:11,136] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 12:28:11,244] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:28:12,360] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 12:28:13,427] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 12:28:14,041] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 12:28:14,148] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 12:28:14,762] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 12:28:15,916] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:28:15,966] - logger.py] - INFO: Click back on current page.
+[2020-03-20 12:28:16,981] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 12:28:19,101] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 12:28:21,206] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 12:28:21,858] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 12:28:22,629] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:28:22,678] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 12:28:23,806] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 12:28:24,426] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 12:28:25,545] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 13:46:23,679] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 13:46:25,809] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 13:46:26,425] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 13:46:26,560] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 13:46:28,667] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 13:46:28,776] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 13:46:28,877] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 13:46:28,988] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 13:46:29,089] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 13:46:29,188] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 13:46:30,323] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 13:46:31,465] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 13:46:33,652] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 13:46:34,801] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 13:46:51,019] - logger.py] - INFO: 刷新页面
+[2020-03-20 13:46:51,034] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 13:46:53,211] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 13:46:53,261] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 13:46:53,339] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 13:47:05,944] - logger.py] - INFO: 噢啦爱心-查看证书 is not display
+[2020-03-20 14:35:40,877] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 14:35:42,987] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 14:35:43,604] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 14:35:43,707] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 14:35:45,825] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 14:35:45,931] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 14:35:46,038] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 14:35:46,145] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 14:35:46,259] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 14:35:46,361] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 14:35:47,481] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 14:35:48,624] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 14:35:50,810] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 14:35:51,941] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 14:36:08,507] - logger.py] - INFO: 刷新页面
+[2020-03-20 14:36:08,526] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 14:36:10,689] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 14:36:10,730] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 14:36:10,794] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 16:11:08,571] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:11:10,684] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:11:11,306] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:11:11,439] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:11:13,553] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:11:13,668] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:11:13,792] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:11:13,901] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:11:14,011] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:11:14,114] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:11:15,222] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:11:17,377] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 16:11:19,975] - logger.py] - INFO: 执行sql语句
+[2020-03-20 16:11:30,486] - logger.py] - INFO: 个人页面-噢啦爱心首页 is not display
+[2020-03-20 16:11:40,807] - logger.py] - INFO: 噢啦爱心-热门活动 is not display
+[2020-03-20 16:13:59,952] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:14:02,078] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:14:02,700] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:14:02,809] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:14:04,911] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:14:05,017] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:14:05,121] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:14:05,228] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:14:05,334] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:14:05,433] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:14:06,541] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:14:08,697] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 16:14:10,919] - logger.py] - INFO: 执行sql语句
+[2020-03-20 16:14:11,024] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:14:11,038] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 16:14:13,245] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 16:14:13,945] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 16:14:14,582] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:14:15,648] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:14:15,663] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 16:14:16,781] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 16:14:33,768] - logger.py] - INFO: 刷新页面
+[2020-03-20 16:14:33,785] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 16:14:35,962] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 16:14:36,001] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 16:14:36,068] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 16:34:56,874] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:34:58,993] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:34:59,606] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:34:59,712] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:35:01,821] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:35:01,928] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:35:02,030] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:35:02,135] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:35:02,246] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:35:02,347] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:35:03,458] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:35:05,628] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 16:35:07,819] - logger.py] - INFO: 执行sql语句
+[2020-03-20 16:35:07,901] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:35:07,919] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 16:35:10,094] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 16:35:10,747] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 16:35:11,367] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:35:12,428] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:35:12,459] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 16:35:13,561] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 16:35:30,632] - logger.py] - INFO: 刷新页面
+[2020-03-20 16:35:30,650] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 16:35:32,815] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 16:35:32,865] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 16:44:29,554] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:44:31,666] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:44:32,297] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:44:32,445] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:44:34,555] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:44:34,657] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:44:34,763] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:44:34,874] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:44:34,977] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:44:35,089] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:44:36,202] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:44:37,366] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 16:44:39,555] - logger.py] - INFO: 执行sql语句
+[2020-03-20 16:44:39,635] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:44:39,661] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 16:44:41,870] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 16:44:42,503] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 16:44:43,160] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:44:44,230] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:44:44,248] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 16:44:45,358] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 16:44:48,437] - logger.py] - INFO: 刷新页面
+[2020-03-20 16:44:58,743] - logger.py] - INFO: 噢啦爱心-支持项目 is not display
+[2020-03-20 16:46:35,297] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:46:37,406] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:46:38,038] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:46:38,146] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:46:40,249] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:46:40,354] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:46:40,455] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:46:40,558] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:46:40,661] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:46:40,784] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:46:41,910] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:46:43,120] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:46:43,159] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 16:46:45,342] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 16:46:45,972] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 16:46:46,586] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:46:47,636] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:46:47,651] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 16:46:49,916] - logger.py] - INFO: 刷新页面
+[2020-03-20 16:47:00,259] - logger.py] - INFO: 噢啦爱心-支持项目 is not display
+[2020-03-20 16:48:39,805] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 16:48:41,942] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 16:48:42,557] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 16:48:42,696] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 16:48:44,802] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 16:48:44,909] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 16:48:45,019] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 16:48:45,118] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 16:48:45,262] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 16:48:45,367] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 16:48:48,586] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 16:48:50,806] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 16:48:53,020] - logger.py] - INFO: 执行sql语句
+[2020-03-20 16:48:53,119] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:48:53,145] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 16:48:55,322] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 16:48:55,965] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 16:48:56,592] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:48:57,639] - logger.py] - INFO: Click back on current page.
+[2020-03-20 16:48:57,657] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 16:48:58,783] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 16:49:15,902] - logger.py] - INFO: 刷新页面
+[2020-03-20 16:49:15,918] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 16:49:18,091] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 16:49:18,128] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:12:41,446] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:12:43,592] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:12:44,228] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:12:44,329] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:12:46,434] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:12:46,536] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:12:46,637] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:12:46,745] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:12:46,887] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:12:46,997] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:12:48,115] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:12:50,277] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:12:52,504] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:12:52,601] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:12:52,621] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:12:54,811] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 17:12:55,442] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 17:12:56,067] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:12:57,108] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:12:57,124] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:13:08,539] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is not display
+[2020-03-20 17:13:09,302] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:13:19,672] - logger.py] - INFO: 噢啦爱心-支持项目 is not display
+[2020-03-20 17:15:53,614] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:15:55,727] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:15:56,371] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:15:56,481] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:15:58,588] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:15:58,705] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:15:58,807] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:15:58,911] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:15:59,009] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:15:59,108] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:16:00,214] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:16:02,401] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:16:02,419] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:16:04,621] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 17:16:05,309] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 17:16:15,688] - logger.py] - INFO: 噢啦爱心-爱心项目 is not display
+[2020-03-20 17:16:16,281] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:16:26,668] - logger.py] - INFO: 噢啦爱心-支持项目 is not display
+[2020-03-20 17:19:04,980] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:19:07,099] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:19:07,771] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:19:07,892] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:19:10,004] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:19:10,112] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:19:10,223] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:19:10,327] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:19:10,435] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:19:10,552] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:19:11,672] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:19:13,828] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:19:16,055] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:19:16,166] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:19:16,183] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:19:18,400] - logger.py] - INFO: 噢啦爱心-热门活动 is display
+[2020-03-20 17:19:19,114] - logger.py] - INFO: 噢啦爱心-第二个热门活动 is display
+[2020-03-20 17:19:19,705] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:19:20,749] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:19:20,766] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:19:21,620] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:19:31,961] - logger.py] - INFO: 噢啦爱心-支持项目 is not display
+[2020-03-20 17:20:20,427] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:20:22,539] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:20:23,157] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:20:23,268] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:20:25,375] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:20:25,489] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:20:25,592] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:20:25,700] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:20:25,808] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:20:25,919] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:20:27,049] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:20:29,281] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:20:29,309] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:20:31,470] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:20:32,602] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:20:48,967] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:20:48,988] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:20:51,175] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:20:51,215] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:20:51,269] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 17:25:28,375] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:25:30,516] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:25:31,174] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:25:31,288] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:25:51,012] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:25:53,126] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:25:53,747] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:25:53,851] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:25:55,961] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:25:56,071] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:25:56,182] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:25:56,288] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:25:56,392] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:25:56,497] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:25:57,612] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:25:59,778] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:26:02,020] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:26:02,123] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:26:02,150] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:26:04,325] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:26:05,495] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:26:21,696] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:26:21,712] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:26:23,875] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:26:23,915] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:26:23,981] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 17:27:08,636] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:27:10,752] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:27:11,378] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:27:11,562] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:27:13,708] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:27:13,822] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:27:13,925] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:27:14,029] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:27:14,139] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:27:14,241] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:27:15,370] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:27:17,575] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:27:17,604] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:27:19,766] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:27:20,884] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:27:37,187] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:27:37,202] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:27:39,388] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:27:39,441] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:27:39,513] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 17:27:40,131] - logger.py] - INFO: 噢啦爱心-查看证书 is display
+[2020-03-20 17:28:33,734] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:28:35,853] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:28:36,480] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:28:36,632] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:29:17,854] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:29:19,981] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:29:20,637] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:29:20,771] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:29:22,882] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:29:22,989] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:29:23,093] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:29:23,197] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:29:23,308] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:29:23,432] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:29:24,555] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:29:26,751] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:29:28,972] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:29:29,083] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:29:29,099] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:29:31,276] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:29:32,400] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:29:48,602] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:29:48,620] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:29:50,802] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:29:50,842] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:29:50,900] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 17:29:51,518] - logger.py] - INFO: 噢啦爱心-查看证书 is display
+[2020-03-20 17:37:47,490] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:37:49,600] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:37:50,215] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:37:50,351] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:38:02,724] - logger.py] - INFO: 个人页面-数字1 is not display
+[2020-03-20 17:38:02,824] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:38:02,848] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:38:05,062] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:38:06,198] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:38:09,313] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:38:22,373] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:39:30,692] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:39:32,809] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:39:33,464] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:39:33,601] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:39:35,713] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:39:35,816] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:39:35,916] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:39:36,020] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:39:36,121] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:39:36,225] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:39:37,349] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:39:39,529] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:39:41,744] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:39:41,821] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:39:41,839] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:39:44,072] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:39:45,222] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:40:02,028] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:40:02,044] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:40:48,886] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 17:40:51,014] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 17:40:51,631] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 17:40:51,760] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 17:40:53,868] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 17:40:53,970] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 17:40:54,073] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 17:40:54,174] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 17:40:54,278] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 17:40:54,381] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 17:40:55,508] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 17:40:57,722] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 17:41:00,039] - logger.py] - INFO: 执行sql语句
+[2020-03-20 17:41:00,120] - logger.py] - INFO: Click back on current page.
+[2020-03-20 17:41:00,137] - logger.py] - INFO: 个人页面-噢啦爱心首页 is display
+[2020-03-20 17:41:02,332] - logger.py] - INFO: 噢啦爱心-爱心项目 is display
+[2020-03-20 17:41:03,447] - logger.py] - INFO: 噢啦爱心-第一个爱心项目 is display
+[2020-03-20 17:41:20,155] - logger.py] - INFO: 刷新页面
+[2020-03-20 17:41:20,180] - logger.py] - INFO: 噢啦爱心-支持项目 is display
+[2020-03-20 17:41:22,399] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:41:22,447] - logger.py] - INFO: 噢啦爱心-支持噢啦豆 is display
+[2020-03-20 17:41:22,522] - logger.py] - INFO: 噢啦爱心-支持项目1 is display
+[2020-03-20 17:41:23,145] - logger.py] - INFO: 噢啦爱心-查看证书 is display
+[2020-03-20 21:50:30,131] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 21:50:32,431] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 21:50:33,162] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 21:50:33,361] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 21:50:35,472] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 21:50:35,682] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 21:50:35,781] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 21:50:35,894] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 21:50:36,016] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 21:50:36,120] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 21:50:37,239] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 21:50:39,516] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 21:50:51,721] - logger.py] - ERROR: 数据库连接错误：出错是:(2003, "Can't connect to MySQL server on 'uat.oola.cn' (timed out)")
+[2020-03-20 21:51:02,057] - logger.py] - INFO: 个人页面-用户头像 is not display
+[2020-03-20 21:51:02,121] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 21:53:24,843] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 21:53:27,327] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 21:53:27,993] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 21:53:28,116] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 21:53:30,220] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 21:53:30,359] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 21:53:30,449] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 21:53:30,543] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 21:53:30,632] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 21:53:30,726] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 21:53:32,329] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 21:53:34,547] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 21:53:46,674] - logger.py] - ERROR: 数据库连接错误：出错是:(2003, "Can't connect to MySQL server on 'uat.oola.cn' (timed out)")
+[2020-03-20 21:53:57,040] - logger.py] - INFO: 个人页面-用户头像 is not display
+[2020-03-20 21:53:57,104] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 22:12:22,631] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 22:12:24,804] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 22:12:25,493] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 22:12:25,665] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 22:12:27,759] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 22:12:27,913] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 22:12:28,003] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 22:12:28,097] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 22:12:28,190] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 22:12:28,284] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 22:12:29,387] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 22:12:31,616] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 22:12:32,795] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 22:12:44,191] - logger.py] - INFO: 个人页面-我的地址 is not display
+[2020-03-20 22:12:44,264] - logger.py] - ERROR: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='empty-addr empty-page']"}
+  (Session info: chrome=80.0.3987.122)
+
+[2020-03-20 22:20:11,553] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 22:20:13,721] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 22:20:14,383] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 22:20:14,520] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 22:20:16,616] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 22:20:16,764] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 22:20:16,857] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 22:20:16,947] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 22:20:17,039] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 22:20:17,130] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 22:20:18,234] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 22:20:20,446] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 22:20:22,930] - logger.py] - INFO: 执行sql语句
+[2020-03-20 22:20:33,297] - logger.py] - INFO: 个人页面-用户头像 is not display
+[2020-03-20 22:20:33,374] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 22:20:33,990] - logger.py] - INFO: Element is exist!
+[2020-03-20 22:20:34,052] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 22:20:34,671] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 22:20:34,786] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 22:20:35,916] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 22:20:36,168] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 22:20:36,262] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 22:20:37,360] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 22:20:38,492] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 22:20:39,158] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 22:20:39,308] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 22:20:39,914] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 22:20:41,102] - logger.py] - INFO: Click back on current page.
+[2020-03-20 22:20:41,182] - logger.py] - INFO: Click back on current page.
+[2020-03-20 22:54:33,925] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 22:54:36,329] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 22:54:37,009] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 22:54:37,110] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 22:54:39,213] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 22:54:39,358] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 22:54:39,453] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 22:54:39,540] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 22:54:39,636] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 22:54:39,727] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 22:54:40,833] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 22:54:42,021] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 22:54:44,244] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 22:54:44,917] - logger.py] - INFO: Element is exist!
+[2020-03-20 22:54:45,042] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 22:54:45,642] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 22:54:45,765] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 22:54:46,865] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 22:54:47,144] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 22:54:47,247] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 22:54:48,338] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 22:54:49,439] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 22:54:50,082] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 22:54:50,204] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 22:54:50,808] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 22:54:51,995] - logger.py] - INFO: Click back on current page.
+[2020-03-20 22:54:52,084] - logger.py] - INFO: Click back on current page.
+[2020-03-20 22:54:52,105] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 22:54:54,207] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 22:54:56,369] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 22:54:57,355] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 22:54:58,653] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 22:54:58,763] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 22:54:59,878] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 22:55:00,593] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 22:55:01,774] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 22:55:12,213] - logger.py] - INFO: 环保回收-确定预约 is not display
+[2020-03-20 23:08:12,240] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 23:08:14,420] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 23:08:15,092] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 23:08:15,232] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 23:08:17,337] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 23:08:17,488] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 23:08:17,578] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 23:08:17,670] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 23:08:17,763] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 23:08:17,863] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 23:08:18,970] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 23:08:20,160] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 23:08:22,377] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 23:08:23,047] - logger.py] - INFO: Element is exist!
+[2020-03-20 23:08:23,101] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 23:08:23,705] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 23:08:23,825] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 23:08:24,938] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 23:08:25,169] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 23:08:25,265] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:08:26,368] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:08:27,503] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 23:08:28,174] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 23:08:28,321] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 23:08:28,916] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 23:08:30,091] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:08:30,181] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:08:30,195] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 23:08:32,294] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 23:08:34,473] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 23:08:35,150] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 23:08:36,059] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:08:36,157] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:08:37,284] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 23:08:37,976] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 23:08:39,137] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 23:10:25,885] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 23:10:28,291] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 23:10:28,956] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 23:10:29,096] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 23:10:31,195] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 23:10:31,350] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 23:10:31,447] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 23:10:31,543] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 23:10:31,638] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 23:10:31,734] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 23:10:32,831] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 23:10:34,010] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 23:10:36,230] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 23:10:36,903] - logger.py] - INFO: Element is exist!
+[2020-03-20 23:10:36,982] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 23:10:37,579] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 23:10:37,695] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 23:10:38,810] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 23:10:39,054] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 23:10:39,147] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:10:40,246] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:10:41,374] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 23:10:42,033] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 23:10:42,180] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 23:10:42,784] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 23:10:43,971] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:10:44,055] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:10:44,069] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 23:10:46,170] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 23:10:48,316] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 23:10:49,303] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 23:10:50,093] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:10:50,187] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:10:51,307] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 23:10:52,475] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 23:10:53,634] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 23:10:53,797] - logger.py] - INFO: 环保回收-确定预约 is display
+[2020-03-20 23:13:19,012] - logger.py] - INFO: 个人页面-个人模块 is display
+[2020-03-20 23:13:21,377] - logger.py] - INFO: 个人页面-登录按钮 is display
+[2020-03-20 23:13:22,067] - logger.py] - INFO: 个人页面-输入手机号 is display
+[2020-03-20 23:13:22,197] - logger.py] - INFO: 个人页面-发送验证码 is display
+[2020-03-20 23:13:24,298] - logger.py] - INFO: 个人页面-数字1 is display
+[2020-03-20 23:13:24,464] - logger.py] - INFO: 个人页面-数字2 is display
+[2020-03-20 23:13:24,567] - logger.py] - INFO: 个人页面-数字3 is display
+[2020-03-20 23:13:24,661] - logger.py] - INFO: 个人页面-数字4 is display
+[2020-03-20 23:13:24,764] - logger.py] - INFO: 个人页面-数字5 is display
+[2020-03-20 23:13:24,859] - logger.py] - INFO: 个人页面-数字6 is display
+[2020-03-20 23:13:25,963] - logger.py] - INFO: 个人页面-引导图图层 is display
+[2020-03-20 23:13:27,092] - logger.py] - INFO: 个人页面-用户头像 is display
+[2020-03-20 23:13:29,296] - logger.py] - INFO: 个人页面-我的地址 is display
+[2020-03-20 23:13:29,962] - logger.py] - INFO: Element is exist!
+[2020-03-20 23:13:30,023] - logger.py] - INFO: 个人页面-添加地址 is display
+[2020-03-20 23:13:30,688] - logger.py] - INFO: 个人页面-联系人 is display
+[2020-03-20 23:13:30,824] - logger.py] - INFO: 个人页面-地址 is display
+[2020-03-20 23:13:31,933] - logger.py] - INFO: 个人页面-地址选择框 is display
+[2020-03-20 23:13:32,177] - logger.py] - INFO: 个人页面-广州 is display
+[2020-03-20 23:13:32,272] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:13:33,374] - logger.py] - INFO: 个人页面-搜索城市 is display
+[2020-03-20 23:13:34,492] - logger.py] - INFO: 个人页面-第一个结果 is display
+[2020-03-20 23:13:35,142] - logger.py] - INFO: 个人页面-详细地址 is display
+[2020-03-20 23:13:35,294] - logger.py] - INFO: 个人页面-设置默认地址 is display
+[2020-03-20 23:13:35,892] - logger.py] - INFO: 个人页面-完成添加地址 is display
+[2020-03-20 23:13:37,082] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:13:37,162] - logger.py] - INFO: Click back on current page.
+[2020-03-20 23:13:37,175] - logger.py] - INFO: 个人页面-环保回收页 is display
+[2020-03-20 23:13:39,280] - logger.py] - INFO: 环保回收-选择发起回收地址 is display
+[2020-03-20 23:13:40,448] - logger.py] - INFO: 环保回收-广州 is display
+[2020-03-20 23:13:41,625] - logger.py] - INFO: 环保回收-第一个回收品类 is display
+[2020-03-20 23:13:42,638] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:13:42,729] - logger.py] - INFO: 环保回收-下单时输入回收重量 is display
+[2020-03-20 23:13:43,830] - logger.py] - INFO: 环保回收-确定回收品类数量 is display
+[2020-03-20 23:13:44,498] - logger.py] - INFO: 环保回收-选择上门取件时间 is display
+[2020-03-20 23:13:45,680] - logger.py] - INFO: 环保回收-确定上门取件时间 is display
+[2020-03-20 23:13:46,361] - logger.py] - INFO: 环保回收-确定预约 is display

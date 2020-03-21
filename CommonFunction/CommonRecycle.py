@@ -15,7 +15,7 @@ from config.config import local_constant
 from config.config import local_config
 from CommonFunction.login import Login
 from common.globalvar import GlobalMap
-from CommonFunction.CommonPersonal import userSetting,addAddress,clickOola
+from CommonFunction.CommonPersonal import userSetting,addAddress,clickOola,recycleList
 from selenium.webdriver.support import expected_conditions as Ec
 from selenium.webdriver.common.by import By
 from time import sleep
@@ -30,14 +30,14 @@ def recycleModule(driver):
         webhandle = WebHandle(driver)
         a = Login(driver)
         a.login(driver)
-        clickOola(driver)
-        # userSetting(driver)
+        # clickOola(driver)
+        userSetting(driver)
         addAddress(driver,'test')
         # clickOola(driver)
         changeModule(driver, '个人页面', '环保回收页')
         # sleep(1)
         webhandle.Click('环保回收', '选择发起回收地址')
-        sleep(2)
+        sleep(1)
         # UIHandle.back()
         webhandle.Click('环保回收', '广州')
         print(r"成功选择回收地址")
@@ -77,6 +77,7 @@ def recycleCategory(driver,categoryNum,weight=None):
         print("你输入回收品类数字有误")
     try:
         webhandle.clearText('环保回收','下单时输入回收重量')
+        sleep(0.5)
         webhandle.Input('环保回收','下单时输入回收重量',weight)
         # sleep(1)
     except Exception as e:
@@ -105,12 +106,13 @@ def recycleCategory(driver,categoryNum,weight=None):
         sleep(0.5)
         webhandle.Click('环保回收', '确定预约')
         print('预约成功')
+        sleep(3)
     except Exception as e:
         print(e)
 
+# 查看是否预约成功
 def orderSuccess(driver):
     # webhandle = WebHandle(driver)
-    # 查看是否预约成功
     try:
         a= Assert.assertTextExist('环保回收','预约成功','预约成功')
         if a ==True:
@@ -128,25 +130,55 @@ def orderSuccessShare(driver):
         webhandle.Click('环保回收','分享成就')
         sleep(2)
         # 海报截图
-        uihandle.get_screent_img('预约回收成功页分享')
+        # uihandle.get_screent_img('预约回收成功页分享')
         UIHandle.back()
+        sleep(1)
     except Exception as e:
         print('分享成就按钮失败',e)
 
+# 判断页面是否显示有可以支持的爱心项目
 def supportProjict(driver):
     webhandle = WebHandle(driver)
-    # 判断页面是否显示有可以支持的爱心项目
     if Assert.assertTextExist('环保回收','支持项目','支持项目') == True:
         try:
             supportProjictName = webhandle.getElementText('环保回收','支持项目名称')
-            print('准备支持的项目是:', + '[' + supportProjictName + ']')
+            print('准备支持的项目是:' + '[' + supportProjictName + ']')
             webhandle.Click('环保回收','支持项目')
             sleep(1)
             webhandle.Click('环保回收','确认捐赠')
+            # 打印捐赠成功后的信息
+            support1 = webhandle.getText("//*[@class='right flex-col']/p")
+            support2 = webhandle.getText("//*[@class='right flex-col']/div")
+            print(support1,support2)
         except Exception as e:
             print('支持项目失败',e)
     else:
         print('该渠道下没有可支持的项目')
+
+# 点击查看订单页面
+def orderPage(driver):
+    webhandle = WebHandle(driver)
+    try:
+        webhandle.Click('环保回收','查看订单')
+        sleep(1)
+        orderStatus = webhandle.getElementText('环保回收','订单状态')
+        print('当前的订单状态为：',orderStatus)
+        # UIHandle.get_screent_img('回收成功后的订单详情页面')
+    except Exception as e:
+        print('查看订单失败',e)
+
+# 点击页面中的悬浮按钮，回到首页
+def backHome(driver):
+    sleep(2)
+    webhandle = WebHandle(driver)
+    try:
+        webhandle.Click('环保回收','回到首页')
+    except Exception as e:
+        print('回到回收首页失败',e)
+
+
+
+
 
 
 
@@ -156,5 +188,9 @@ if __name__ == "__main__":
     recycleModule(driver)
     recycleCategory(driver,1,6)
     # orderSuccess(driver)
-    orderSuccessShare(driver)
+    # orderSuccessShare(driver)
     supportProjict(driver)
+    orderPage(driver)
+    backHome(driver)
+    changeModule(driver,'个人页面', '个人模块')
+    recycleList(driver)
