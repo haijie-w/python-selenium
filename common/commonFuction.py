@@ -204,10 +204,33 @@ class WebHandle():
         select = Select(cls.driver.find_element_by_tag_name('select'))
         select.select_by_visible_text(v1)
 
+    # 另外一种方法选择下拉框,根据option的位置选择内容
+    @classmethod
+    def selectByIdNo(cls, page, element, num):
+        cls.byId(page, element).find_elements_by_tag_name("option")[num].click()
+
+    # 另外一种方法选择下拉框,根据option的位置选择内容
+
+    @classmethod
+    def selectByxpathNo(cls, page, element, num):
+        cls.byXPath(page, element).find_elements_by_tag_name("option")[num].click()
+
+    def switch_iframe(cls, id_index_locator):
+        '''切换iframe'''
+        if isinstance(id_index_locator, int):
+            cls.driver.switch_to.frame(id_index_locator)
+        elif isinstance(id_index_locator, str):
+            cls.driver.switch_to.frame(id_index_locator)
+
     # 获取页面上的数据
     @classmethod
     def getText(cls, path):
         return cls.driver.find_element_by_xpath(path).text
+
+    # 获取页面元素的属性
+    @classmethod
+    def get_attribute(cls, page, element, name):
+        return cls.byXPath(page, element).get_attribute(name)
 
     # 返回element的text值
     @classmethod
@@ -232,7 +255,26 @@ class WebHandle():
     @classmethod
     def script(cls, src):
         return cls.driver.execute_script(src)
+
     # a = "arguments[0].click();",
+
+    # 界面框滚动到顶部
+    @classmethod
+    def js_scroll_top(cls):
+        js = "window.scrollTo(0,0)"
+        return cls.script(js)
+
+    # 界面框滚动到顶部
+    @classmethod
+    def js_scroll_end(cls, x=0):
+        js = "window.scrollTo(%s,document.body.scrollHeight)" % x
+        return cls.script(js)
+
+    # 内部框滚动到指定位置
+    @classmethod
+    def js_scroll_end_id(cls, value, x):
+        js = "document.getElementById('%s').scrollTop=%d" % (value, x)
+        return cls.script(js)
 
     # 鼠标悬停方法
     # page, element是悬停元素的路径
@@ -305,13 +347,27 @@ class UIHandle():
     def quit(cls):
         cls.driver.quit()
 
+    # 关闭浏览器子窗口驱动
+    @classmethod
+    def quitNewWindow(cls):
+        # 获取当前所有窗口句柄（窗口A、B）
+        handles = cls.driver.window_handles
+        # 对窗口进行遍历
+        for newhandle in handles:
+            # 关闭新打开的窗口
+            if newhandle != handles[0]:
+                cls.driver.switch_to_window(newhandle)
+                cls.driver.close()
+        # 返回主窗口
+        cls.driver.switch_to_window(handles[0])
+
     # 截图
     @classmethod
     def get_screent_img(cls, imgName=None):
         # 设置截图保存路径
         file_path = readPath.Img_DIR
         # cls.scrollUpScreen()
-        if imgName !=None:
+        if imgName != None:
             imgName = imgName
         else:
             imgName = "页面截图"

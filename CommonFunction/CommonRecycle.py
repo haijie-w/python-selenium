@@ -28,11 +28,11 @@ bean22 = GlobalMap()
 def recycleModule(driver):
     try:
         webhandle = WebHandle(driver)
-        a = Login(driver)
-        a.login(driver)
-        # clickOola(driver)
-        userSetting(driver)
-        addAddress(driver,'test')
+        # a = Login(driver)
+        # a.login(driver)
+        # # clickOola(driver)
+        # userSetting(driver)
+        # addAddress(driver,'test')
         # clickOola(driver)
         changeModule(driver, '个人页面', '环保回收页')
         # sleep(1)
@@ -136,6 +136,20 @@ def orderSuccessShare(driver):
     except Exception as e:
         print('分享成就按钮失败',e)
 
+# 预约成功页分享海报
+def moreProject(driver):
+    webhandle = WebHandle(driver)
+    uihandle = UIHandle(driver)
+    try:
+        webhandle.Click('环保回收','更多项目')
+        sleep(2)
+        # 跳转到爱心项目
+        title = uihandle.get_page_title()
+        print('订单详情页跳转到爱心项目首页',title)
+        sleep(1)
+    except Exception as e:
+        print('更多项目跳转失败',e)
+
 # 判断页面是否显示有可以支持的爱心项目
 def supportProjict(driver):
     webhandle = WebHandle(driver)
@@ -163,7 +177,23 @@ def orderPage(driver):
         sleep(1)
         orderStatus = webhandle.getElementText('环保回收','订单状态')
         print('当前的订单状态为：',orderStatus)
+        orderID = webhandle.getElementText('环保回收','订单编号')
+        print('订单编号为：',orderID)
         # UIHandle.get_screent_img('回收成功后的订单详情页面')
+        GlobalMap.set_map('orderNo', orderID)
+    except Exception as e:
+        print('查看订单失败',e)
+
+# 订单页面取消订单
+def cancleOrder(driver):
+    webhandle = WebHandle(driver)
+    try:
+        webhandle.Click('环保回收','取消订单')
+        sleep(1)
+        webhandle.Click('环保回收','取消原因1')
+        webhandle.script("window.scrollTo(0, document.body.scrollHeight);")
+        sleep(0.5)
+        webhandle.Click('环保回收','确定取消')
     except Exception as e:
         print('查看订单失败',e)
 

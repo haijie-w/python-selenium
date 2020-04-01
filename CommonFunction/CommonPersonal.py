@@ -16,6 +16,7 @@ from CommonFunction.login import *
 from common.dataBase import *
 from common.globalvar import GlobalMap
 from time import sleep
+from CommonFunction.CommonRecycle import *
 
 
 global driver
@@ -117,11 +118,22 @@ def recycleList(driver):
         webhandle = WebHandle(driver)
         webhandle.Click('个人页面', '回收订单')
         print(r"进入回收订单页面")
-        sleep(2)
-        UIHandle.back()
+        # sleep(2)
+        # UIHandle.back()
         sleep(1)
     except Exception as e:
         print(r"进入回收订单页面失败", e)
+
+# 回收页面中若没有订单，点击进行预约回收
+def personalRecycle(driver):
+    webhandle = WebHandle(driver)
+    if Assert.assertXPathExistByXPath('个人页面', '回收中的预约回收'):
+        try:
+            webhandle.Click('个人页面', '回收中的预约回收')
+            print(r"订单页面没有回收订单，现在要预约回收")
+            sleep(1)
+        except Exception as e:
+            print(r"回收订单页面跳转到预约回收页失败", e)
 
 # 进入爱心记录页面
 def loveRecord(driver):
@@ -203,7 +215,14 @@ if __name__ == "__main__":
     clickOola(driver)
     # userSetting(driver)
     addAddress(driver,'whj')
-    # recycleList(driver)
+    recycleList(driver)
+    personalRecycle(driver)
+    recycleModule(driver)
+    recycleCategory(driver,1,6)
+    # orderSuccess(driver)
+    # orderSuccessShare(driver)
+    supportProjict(driver)
+    orderPage(driver)
     # loveRecord(driver)
     # task(driver)
     # dailySignature(driver)

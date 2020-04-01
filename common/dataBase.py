@@ -8,6 +8,7 @@ import pymysql
 import config.readConfig as conf
 from common import logger
 import json
+
 # 在此处切换测试库连接地址
 # 测试环境数据库
 databaseName = 'DATABASE_Test'
@@ -74,7 +75,4 @@ if __name__ == "__main__":
     z1 = "select credit from star_user WHERE id = " + userId
     y = x.delete(z)
     y1 = x.select_oneInt(z1)
-    print(y1)
-    # print(type(y1))
-    # xx = y1[1]
-    # print(xx)
+    print(y1)  # print(type(y1))  # xx = y1[1]  # print(xx)

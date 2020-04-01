@@ -9,6 +9,7 @@
 # 噢啦爱心业务功能脚本（用例脚本可调用此处的功能脚本）
 
 import importlib, sys
+
 importlib.reload(sys)
 from common.commonFuction import *
 from CommonFunction.CommomFunction import *
@@ -21,6 +22,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 import time
 import random
+
 
 # 点击进入个人模块
 def loveModule(driver):
@@ -36,6 +38,7 @@ def loveModule(driver):
         print(r"进入爱心首页")
     except Exception as e:
         print(r"进入爱心首页失败", e)
+
 
 # 点击进入热门活动
 # def hotActivity(driver):
@@ -68,14 +71,14 @@ def loveProject(driver):
         # print(r"点击第一个爱心项目")
         sleep(2)
         title = UIHandle.get_page_title()
-        print("第一个爱心项目的标题是" , ":" ,title)
+        print("第一个爱心项目的标题是", ":", title)
         sleep(1)
     except Exception as e:
-        print(r"进入爱心项目失败", e)
-        # sleep(1)
+        print(r"进入爱心项目失败", e)  # sleep(1)
+
 
 # 点击支持爱心项目
-def supportProject(driver,num):
+def supportProject(driver, num):
     try:
         webhandle = WebHandle(driver)
         UIHandle.refresh()
@@ -111,8 +114,8 @@ def supportProject(driver,num):
         sleep(1)
 
     except Exception as e:
-        print(r"支持爱心项目失败", e)
-        # sleep(1)
+        print(r"支持爱心项目失败", e)  # sleep(1)
+
 
 # 点击进行以废代捐
 # def supportProject(driver):

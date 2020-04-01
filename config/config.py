@@ -63,6 +63,7 @@ local_config = {
         '数字0': ['xpath', "//div[@class='popup number-keyboard']/div[4]/div[2]"],
         '删除': ['xpath', "//div[@class='popup number-keyboard']/div[4]/div[3]"],
         '引导图图层': ['xpath', "//*[@id='guide-layer']/div/img"],
+        '关闭下载提示': ['xpath', "//*[@id='btn-close']"],
         '用户头像': ['xpath', "//div[@class='basic-info']/img"],
         '我的地址': ['xpath', "//ul[@class='info-list']/li[3]"],
         '无地址信息': ['xpath', "//div[@class='empty-addr empty-page']"],
@@ -93,7 +94,9 @@ local_config = {
         '消息中心': ['xpath', "//div[@class='inner-content']/div[7]/h1"],
         '联系客服': ['xpath', "//div[@class='inner-content']/div[8]/h1"],
         '机构合作咨询': ['xpath', "//div[@class='inner-content']/div[9]/h1"],
-        '关于噢啦': ['xpath', "//div[@class='inner-content']/div[10]/h1"]
+        '关于噢啦': ['xpath', "//div[@class='inner-content']/div[10]/h1"],
+        '回收中的预约回收': ['xpath', "//div[@class='booking-btn']"],
+
 
     },
 
@@ -103,6 +106,8 @@ local_config = {
         '爱心项目': ['xpath', "//div[@class='item-area']/div[1]/div[2]/img"],
         '爱心商城': ['xpath', "//div[@class='item-area']/div[1]/div[3]/img"],
         '环保资讯': ['xpath', "//div[@class='item-area']/div[1]/div[4]/img"],
+        '资讯列表阅读人数': ['xpath', "//div[@class='article-list']/li[2]/div/a/p[2]"],
+        '资讯详情页阅读人数': ['xpath', "//div[@class='article-detail']/p/span[2]"],
         '首页banner(1)': ['xpath', "//div[@class='oola-autoHeightBanner banner-area']/div[1]/div[1]/div[1]/div[1]/img"],
         '第一个热门活动': ['xpath', "//div[@class='list']/div[1]/img"],
         '第二个热门活动': ['xpath', "//div[@class='list']/div[2]/img"],
@@ -143,13 +148,21 @@ local_config = {
         '确定预约': ['xpath', "//div[@class='bottom-btn']"],
         '确定上门取件时间': ['xpath', "//div[@class='timepop-btn']"],
         '预约成功': ['xpath', "//p[@class='title']"],
-        '分享成就': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[3]/div[2]"],
+        '更多项目': ['xpath', "//p[@class='bottom-area']/div[1]"],
+        '分享成就': ['xpath', "//p[@class='bottom-area']/div[2]"],
+        # '分享成就': ['xpath', "//div[@class='recycle-tri-orderSuccess']/div[3]/div[2]"],
         '支持项目': ['xpath', "//div[@class='support']"],
         '支持项目名称': ['xpath', "//p[@class='item-title haveSupportBtn']"],
         '确认捐赠': ['xpath', "//div[@class='donate-btn']"],
         '查看订单': ['xpath', "//div[@class='flex-row clear']/div/span"],
         '订单状态': ['xpath', "//div[@class='top-area flex-row']/div[1]/div[1]"],
         '回到首页': ['xpath', "//div[@class='oola-fixBtn']/img"],
+        '订单编号': ['xpath', "//div[@class='orderinfo-area part']/div[3]/div"],
+        '取消订单': ['xpath', "//div[@class='cancel']"],
+        '取消原因1': ['xpath', "//div[@class='reason-list flex-row']/div[1]"],
+        '确定取消': ['xpath', "//div[@class='bottom-area flex-row wrapper']/div[1]"],
+        '不取消了': ['xpath', "//div[@class='bottom-area flex-row wrapper']/div[2]"],
+
 
 
 

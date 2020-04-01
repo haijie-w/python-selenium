@@ -12,13 +12,13 @@ from config.config import browser_config
 from config.config import local_constant
 from time import sleep
 
-
 # 此文件中封装打开浏览器和切换模块操作
 global driver
 driver = browser_config['chrome']
 # 暂时在此处切换测试环境地址
 # url = local_constant['H5_uat_URL']
 url = local_constant['H5_Test_URL']
+
 
 # 打开进入微端首页
 # class commomFunction():

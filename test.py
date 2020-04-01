@@ -18,6 +18,7 @@ from config.config import browser_config
 global driver
 driver = browser_config['chrome']
 
+
 # driver.implicitly_wait(10)
 
 
@@ -81,11 +82,9 @@ def logInModule(page, module):
     webhandle = WebHandle(driver)
     time.sleep(2)
     webhandle.Click(page, module)
-    time.sleep(2)
-    # return driver
+    time.sleep(2)  # return driver
 
 
 driver = login()
 logInModule('噢啦h5页面', '噢啦爱心')
 logInModule('噢啦h5页面', '环保回收')
-

@@ -11,6 +11,8 @@ from common import readPath
 
 # 配置文件的路径
 config_path = readPath.CONFIG_DIR
+
+
 # flag = "local_constant"
 
 
@@ -25,7 +27,7 @@ class ReadConfig:
         value = self.cf.get("Email_config", name)
         return value
 
-    def get_db(self, databaseName,name):
+    def get_db(self, databaseName, name):
         value = self.cf.get(databaseName, name)
         return value
 
@@ -41,4 +43,3 @@ if __name__ == "__main__":
     print(url.get_db('DATABASE_Uat', 'password'))
     print(url.get_db('DATABASE_Uat', 'port'))
     print(url.get_db('DATABASE_Uat', 'database'))
-

@@ -22,25 +22,26 @@ from datetime import *
 
 global driver
 global userID
+
+
 # global bean
 
 # 登录模块
 class Login():
 
-    def __init__(cls,driver):
+    def __init__(cls, driver):
         logIn()
         cls.driver = driver
         changeModule(driver, '个人页面', '个人模块')
         # sleep(1)
         print(r"进入个人模块")
 
-    def login(cls,driver):
+    def login(cls, driver):
         try:
             cls.driver = driver
             webhandle = WebHandle(driver)
             webhandle.Click('个人页面', '登录按钮')
             # print(r"成功进入注册页面")
-            # phone = random.choice(basic_config.get('phone'))
             # 随机取到一个180,189和158开头的手机号码
             phone = random.choice(all_phone_nums)
             webhandle.Input('个人页面', '输入手机号', phone)
@@ -66,9 +67,7 @@ class Login():
         except Exception as e:
             print(r"登录失败", e)
 
+
 if __name__ == "__main__":
     a = Login(driver)
-    a.login(driver)
-    # userSetting(driver)
-    # clickAddress(driver)
-    # addAddress(driver, '晓杰')
+    a.login(driver)  # userSetting(driver)  # clickAddress(driver)  # addAddress(driver, '晓杰')

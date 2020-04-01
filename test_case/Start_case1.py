@@ -28,10 +28,7 @@ class Case_01(unittest.TestCase):
         Assert.assertTextExist('产品管理页', '验证累计收益率', '0.00%')
         Assert.assertPageTextExist('//*[contains(text(),"没有数据")]')
 
-        # def tearDown(self):#执行测试用例后续操作
-        # 删除产品
-        # detailProduct(driver)
-        # deletePro(driver)
+        # def tearDown(self):#执行测试用例后续操作  # 删除产品  # detailProduct(driver)  # deletePro(driver)
 
 
 if __name__ == "__main__":
