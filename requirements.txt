@@ -45,7 +45,7 @@ idna==2.6
 itchat==1.2.32
 itsdangerous==0.24
 jdcal==1.4
-Jinja2==2.9.6
+Jinja2==2.11.3
 jsonpath-rw==1.4.0
 kitchen==1.2.5
 kombu==4.2.1
