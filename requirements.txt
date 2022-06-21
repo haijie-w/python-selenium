@@ -52,7 +52,7 @@ kombu==4.2.1
 lxml==4.2.5
 MarkupSafe==1.0
 more-itertools==4.3.0
-numpy==1.16.4
+numpy==1.22.0
 olefile==0.46
 openpyxl==2.5.9
 pandas==0.25.0
